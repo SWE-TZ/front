@@ -1,0 +1,143 @@
+[
+    {
+      "id": 1,
+      "user_id": 1,
+      "employee_id": 3,
+      "description": "Excellent service! The electrician was very professional.",
+      "rating": 4.8
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "employee_id": 5,
+      "description": "Helped us move quickly and efficiently. Highly recommend!",
+      "rating": 5.0
+    },
+    {
+      "id": 3,
+      "user_id": 3,
+      "employee_id": 1,
+      "description": "The plumber did a great job, but arrived late.",
+      "rating": 4.2
+    },
+    {
+      "id": 4,
+      "user_id": 4,
+      "employee_id": 2,
+      "description": "Painter was friendly and did a good job, but the cleanup was not perfect.",
+      "rating": 3.9
+    },
+    {
+      "id": 5,
+      "user_id": 5,
+      "employee_id": 4,
+      "description": "The house cleaner left my place spotless. Wonderful work!",
+      "rating": 4.9
+    },
+    {
+      "id": 6,
+      "user_id": 6,
+      "employee_id": 6,
+      "description": "Great job fixing the pipes. Would hire again.",
+      "rating": 4.6
+    },
+    {
+      "id": 7,
+      "user_id": 7,
+      "employee_id": 7,
+      "description": "Good job painting the rooms. Took a bit longer than expected.",
+      "rating": 4.0
+    },
+    {
+      "id": 8,
+      "user_id": 8,
+      "employee_id": 8,
+      "description": "Electrician was fast and efficient. Solved my issue quickly.",
+      "rating": 4.7
+    },
+    {
+      "id": 9,
+      "user_id": 9,
+      "employee_id": 9,
+      "description": "The house cleaning was satisfactory, but missed a few spots.",
+      "rating": 3.8
+    },
+    {
+      "id": 10,
+      "user_id": 10,
+      "employee_id": 10,
+      "description": "Mover was very helpful and careful with my furniture.",
+      "rating": 4.5
+    },
+    {
+      "id": 11,
+      "user_id": 11,
+      "employee_id": 11,
+      "description": "Plumber was on time and did a solid job.",
+      "rating": 4.4
+    },
+    {
+      "id": 12,
+      "user_id": 12,
+      "employee_id": 12,
+      "description": "The painter did an excellent job. Very satisfied.",
+      "rating": 4.9
+    },
+    {
+      "id": 13,
+      "user_id": 13,
+      "employee_id": 13,
+      "description": "Electrician resolved the issue, but customer service could improve.",
+      "rating": 4.1
+    },
+    {
+      "id": 14,
+      "user_id": 14,
+      "employee_id": 14,
+      "description": "Cleaner was fast but missed a few areas. Okay overall.",
+      "rating": 3.7
+    },
+    {
+      "id": 15,
+      "user_id": 15,
+      "employee_id": 15,
+      "description": "The plumber was professional and completed the work well.",
+      "rating": 4.6
+    },
+    {
+      "id": 16,
+      "user_id": 16,
+      "employee_id": 16,
+      "description": "Painter did a great job. Will hire again for future work.",
+      "rating": 4.8
+    },
+    {
+      "id": 17,
+      "user_id": 17,
+      "employee_id": 17,
+      "description": "Electrician was knowledgeable and fixed everything.",
+      "rating": 4.5
+    },
+    {
+      "id": 18,
+      "user_id": 18,
+      "employee_id": 18,
+      "description": "House cleaner did a good job but could be more thorough.",
+      "rating": 4.0
+    },
+    {
+      "id": 19,
+      "user_id": 19,
+      "employee_id": 19,
+      "description": "The movers were efficient and very careful with my belongings.",
+      "rating": 4.7
+    },
+    {
+      "id": 20,
+      "user_id": 20,
+      "employee_id": 20,
+      "description": "Plumber was professional and the work was excellent.",
+      "rating": 4.9
+    }
+]
+  

@@ -1,16 +1,19 @@
 import Link from "next/link"
 import Image from "next/image"
-import logo from "@/app/public/images/logo.png"
+import logo from "@/public/images/logo.png"
 
 export default function Nav(){
 
-
     return(
         
-        <div className="fixed z-50 bg-white bg-opacity-35 w-full px-8 md:px-auto ">
-            <div className="md:h-16 h-28 mx-auto md:px-4 container flex items-center justify-between flex-wrap md:flex-nowrap">
+        <div className="fixed z-50 bg-white bg-opacity-35 px-8 md:px-auto w-full">
+            <div className="md:h-16 h-28 md:px-4 grid grid-col-6 flex container mx-auto max-w-screen-xl items-center justify-between flex-wrap md:flex-nowrap">
                 
-                <div className="text-black order-1 w-full md:w-auto md:order-2">
+                <div className="md:order-1 ">
+                    <Image src={logo} className="w-[100px] h-[75px]" />
+                </div>
+                
+                <div className="text-black md:w-auto md:order-2 col-start-4">
                     <ul className="flex font-semibold justify-between">
                         <li className="md:px-4 md:py-2 text-[#1B262C] hover:text-[#FBE4CC]"><Link href="/">Home</Link></li>
                         <li className="md:px-4 md:py-2 text-[#1B262C] hover:text-[#FBE4CC]"><Link href="/pages/products">Products</Link></li>
@@ -20,10 +23,10 @@ export default function Nav(){
                     </ul>
                 </div>
 
-                <div className="md:order-3">
-                    <Image src={logo} className="w-[160px] h-[55px]" />
-                </div>
-                <div className="order-2 md:order-3"></div>
+                
+                <div className=" md:order-3 "></div>
+                <div className=" md:order-3 "></div>
+                
             </div>
         </div>
     )

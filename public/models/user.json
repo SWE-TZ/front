@@ -1,0 +1,143 @@
+[
+    {
+      "id": 1,
+      "email": "john.doe@example.com",
+      "password": "password123",
+      "name": "John Doe",
+      "photo":"@/public/images/person1.jpg"
+    },
+    {
+      "id": 2,
+      "email": "jane.smith@example.com",
+      "password": "pass456word",
+      "name": "Jane Smith",
+      "photo":"@/public/images/person2.jpg"
+    },
+    {
+      "id": 3,
+      "email": "mark.johnson@example.com",
+      "password": "mypassword789",
+      "name": "Mark Johnson",
+      "photo":"@/public/images/person3.jpg"
+    },
+    {
+      "id": 4,
+      "email": "emily.davis@example.com",
+      "password": "emily321pass",
+      "name": "Emily Davis",
+      "photo":"@/public/images/person4.jpg"
+    },
+    {
+      "id": 5,
+      "email": "chris.brown@example.com",
+      "password": "brownpass654",
+      "name": "Chris Brown",
+      "photo":"@/public/images/person5.jpg"
+    },
+    {
+      "id": 6,
+      "email": "sara.wilson@example.com",
+      "password": "wilsonpass321",
+      "name": "Sara Wilson",
+      "photo":"@/public/images/person6.jpg"
+    },
+    {
+      "id": 7,
+      "email": "david.martinez@example.com",
+      "password": "davidpass123",
+      "name": "David Martinez",
+      "photo":"@/public/images/person7.jpg"
+    },
+    {
+      "id": 8,
+      "email": "laura.anderson@example.com",
+      "password": "laurapass789",
+      "name": "Laura Anderson",
+      "photo":"@/public/images/person8.jpg"
+    },
+    {
+      "id": 9,
+      "email": "michael.thomas@example.com",
+      "password": "thomaspass987",
+      "name": "Michael Thomas",
+      "photo":"@/public/images/person9.jpg"
+    },
+    {
+      "id": 10,
+      "email": "olivia.lee@example.com",
+      "password": "oliviapass456",
+      "name": "Olivia Lee",
+      "photo":"@/public/images/person10.jpg"
+    },
+    {
+      "id": 11,
+      "email": "james.clark@example.com",
+      "password": "clarkpass654",
+      "name": "James Clark",
+      "photo":"@/public/images/person1.jpg"
+    },
+    {
+      "id": 12,
+      "email": "sophia.robinson@example.com",
+      "password": "sophiapass789",
+      "name": "Sophia Robinson",
+      "photo":"@/public/images/person2.jpg"
+    },
+    {
+      "id": 13,
+      "email": "daniel.wilson@example.com",
+      "password": "danielpass123",
+      "name": "Daniel Wilson",
+      "photo":"@/public/images/person3.jpg"
+    },
+    {
+      "id": 14,
+      "email": "emma.taylor@example.com",
+      "password": "emmataylor123",
+      "name": "Emma Taylor",
+      "photo":"@/public/images/person4.jpg"
+    },
+    {
+      "id": 15,
+      "email": "lucas.adams@example.com",
+      "password": "lucaspass321",
+      "name": "Lucas Adams",
+      "photo":"@/public/images/person5.jpg"
+    },
+    {
+      "id": 16,
+      "email": "mia.davis@example.com",
+      "password": "miapass456",
+      "name": "Mia Davis",
+      "photo":"@/public/images/person6.jpg"
+    },
+    {
+      "id": 17,
+      "email": "ethan.harris@example.com",
+      "password": "ethanharris654",
+      "name": "Ethan Harris",
+      "photo":"@/public/images/person7.jpg"
+    },
+    {
+      "id": 18,
+      "email": "ava.martinez@example.com",
+      "password": "avamartinez789",
+      "name": "Ava Martinez",
+      "photo":"@/public/images/person8.jpg"
+    },
+    {
+      "id": 19,
+      "email": "oliver.walker@example.com",
+      "password": "oliverpass123",
+      "name": "Oliver Walker",
+      "photo":"@/public/images/person9.jpg"
+    },
+    {
+      "id": 20,
+      "email": "isabella.young@example.com",
+      "password": "isabellapass456",
+      "name": "Isabella Young",
+      "photo":"@/public/images/person10.jpg"
+    }
+]
+  

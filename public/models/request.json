@@ -1,0 +1,203 @@
+[
+    {
+      "id": 1,
+      "user_id": 1,
+      "employee_id": 3,
+      "location": "Springfield",
+      "date": "2024-09-10",
+      "time": "10:00 AM",
+      "category": "electrician",
+      "description": "Fix electrical outlets and check circuit breakers."
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "employee_id": 5,
+      "location": "Metropolis",
+      "date": "2024-09-12",
+      "time": "2:00 PM",
+      "category": "house-moving",
+      "description": "Assist with moving furniture to a new house."
+    },
+    {
+      "id": 3,
+      "user_id": 3,
+      "employee_id": 1,
+      "location": "Gotham",
+      "date": "2024-09-15",
+      "time": "9:00 AM",
+      "category": "plumber",
+      "description": "Repair a leaky kitchen faucet and install a new pipe."
+    },
+    {
+      "id": 4,
+      "user_id": 4,
+      "employee_id": 2,
+      "location": "Star City",
+      "date": "2024-09-17",
+      "time": "11:00 AM",
+      "category": "painter",
+      "description": "Paint the living room and kitchen."
+    },
+    {
+      "id": 5,
+      "user_id": 5,
+      "employee_id": 4,
+      "location": "Riverdale",
+      "date": "2024-09-19",
+      "time": "1:00 PM",
+      "category": "house cleaner",
+      "description": "Deep cleaning of the entire house."
+    },
+    {
+      "id": 6,
+      "user_id": 6,
+      "employee_id": 6,
+      "location": "Hill Valley",
+      "date": "2024-09-20",
+      "time": "3:00 PM",
+      "category": "plumber",
+      "description": "Unclogging a drain and replacing bathroom pipes."
+    },
+    {
+      "id": 7,
+      "user_id": 7,
+      "employee_id": 7,
+      "location": "Sunnydale",
+      "date": "2024-09-22",
+      "time": "10:00 AM",
+      "category": "painter",
+      "description": "Painting two bedrooms and a hallway."
+    },
+    {
+      "id": 8,
+      "user_id": 8,
+      "employee_id": 8,
+      "location": "Metropolis",
+      "date": "2024-09-23",
+      "time": "12:00 PM",
+      "category": "electrician",
+      "description": "Install new lighting fixtures in the kitchen."
+    },
+    {
+      "id": 9,
+      "user_id": 9,
+      "employee_id": 9,
+      "location": "Gotham",
+      "date": "2024-09-25",
+      "time": "9:00 AM",
+      "category": "house cleaner",
+      "description": "Clean the house for an event."
+    },
+    {
+      "id": 10,
+      "user_id": 10,
+      "employee_id": 10,
+      "location": "Star City",
+      "date": "2024-09-27",
+      "time": "2:00 PM",
+      "category": "house-moving",
+      "description": "Help with moving items to storage."
+    },
+    {
+      "id": 11,
+      "user_id": 11,
+      "employee_id": 11,
+      "location": "Riverdale",
+      "date": "2024-09-28",
+      "time": "11:00 AM",
+      "category": "plumber",
+      "description": "Install a new water heater."
+    },
+    {
+      "id": 12,
+      "user_id": 12,
+      "employee_id": 12,
+      "location": "Hill Valley",
+      "date": "2024-09-29",
+      "time": "3:00 PM",
+      "category": "painter",
+      "description": "Repaint the exterior of the house."
+    },
+    {
+      "id": 13,
+      "user_id": 13,
+      "employee_id": 13,
+      "location": "Sunnydale",
+      "date": "2024-09-30",
+      "time": "9:00 AM",
+      "category": "electrician",
+      "description": "Check and repair faulty wiring."
+    },
+    {
+      "id": 14,
+      "user_id": 14,
+      "employee_id": 14,
+      "location": "Gotham",
+      "date": "2024-10-01",
+      "time": "1:00 PM",
+      "category": "house cleaner",
+      "description": "Clean the kitchen and bathrooms."
+    },
+    {
+      "id": 15,
+      "user_id": 15,
+      "employee_id": 15,
+      "location": "Metropolis",
+      "date": "2024-10-03",
+      "time": "2:00 PM",
+      "category": "plumber",
+      "description": "Fix a clogged toilet and sink."
+    },
+    {
+      "id": 16,
+      "user_id": 16,
+      "employee_id": 16,
+      "location": "Star City",
+      "date": "2024-10-05",
+      "time": "10:00 AM",
+      "category": "painter",
+      "description": "Paint the garage and basement."
+    },
+    {
+      "id": 17,
+      "user_id": 17,
+      "employee_id": 17,
+      "location": "Riverdale",
+      "date": "2024-10-06",
+      "time": "11:00 AM",
+      "category": "electrician",
+      "description": "Install new power outlets."
+    },
+    {
+      "id": 18,
+      "user_id": 18,
+      "employee_id": 18,
+      "location": "Hill Valley",
+      "date": "2024-10-08",
+      "time": "12:00 PM",
+      "category": "house cleaner",
+      "description": "Deep clean the entire apartment."
+    },
+    {
+      "id": 19,
+      "user_id": 19,
+      "employee_id": 19,
+      "location": "Sunnydale",
+      "date": "2024-10-10",
+      "time": "9:00 AM",
+      "category": "house-moving",
+      "description": "Assist with moving furniture to a new apartment."
+    },
+    {
+      "id": 20,
+      "user_id": 20,
+      "employee_id": 20,
+      "location": "Gotham",
+      "date": "2024-10-12",
+      "time": "1:00 PM",
+      "category": "plumber",
+      "description": "Replace the kitchen sink and pipes."
+    }
+]
+  

@@ -10,8 +10,14 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "dark" : "#1B262C",
+        "light" : "#FBE4CC",
+        sliderTrack: '#1B262C',
+        sliderThumb: '#1B262C',
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar'),
+  ],
 };
