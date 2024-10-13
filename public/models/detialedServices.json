@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "House Cleaning",
+    "description": "Thorough cleaning of your home, including dusting, vacuuming, and sanitizing.",
+    "image": "/images/Mechanics.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Painting",
+    "description": "Professional painting services to refresh the look of your home or office.",
+    "image": "/images/Mechanics.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Electrical Repairs",
+    "description": "Expert electrical repairs and installations to keep your home safe and functional.",
+    "image": "/images/plumbing.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Plumbing",
+    "description": "Efficient plumbing services including leak repairs, pipe installation, and drain cleaning.",
+    "image": "/images/painting.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Gardening",
+    "description": "Complete gardening services including lawn care, trimming, and planting.",
+    "image": "/images/painting.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Carpentry",
+    "description": "Skilled carpentry for furniture, cabinets, and structural woodwork repairs.",
+    "image": "/images/painting.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Home Moving",
+    "description": "Reliable home moving services, including packing, transporting, and unpacking.",
+    "image": "/images/cleaning.jpg"
+  },
+  {
+    "id": 8,
+    "title": "AC Repair",
+    "description": "Air conditioning repair and maintenance services to keep your home cool and comfortable.",
+    "image": "/images/cleaning.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Roofing",
+    "description": "High-quality roofing services, including installation, repair, and inspection.",
+    "image": "/images/cleaning.jpg"
+  }
+]

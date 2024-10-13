@@ -1,0 +1,140 @@
+[
+  {
+    "id": 1,
+    "title": "Cleaning",
+    "description": "Professional cleaning services for homes and offices. Ensure your space is spotless with our expert team.",
+    "image": "/images/cleaning.jpg",
+    "services": [
+      "Car Cleaning",
+      "Touch-ups",
+      "Carpet Cleaning",
+      "Deep Cleaning",
+      "Window Cleaning",
+      "Appliance Cleaning"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Painting",
+    "description": "High-quality painting services for interior and exterior surfaces, including wall touch-ups and furniture painting.",
+    "image": "/images/painting.jpg",
+    "services": [
+      "Interior Painting",
+      "Exterior Painting",
+      "Wall Touch-ups",
+      "Furniture Painting",
+      "Wallpaper Removal"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Plumbing",
+    "description": "Expert plumbing services including leak fixing, installations, and unclogging of drains for a well-maintained home.",
+    "image": "/images/plumbing.jpg",
+    "services": [
+      "Plumbing Fixing",
+      "Leak Fixing",
+      "Bathroom/System Installation",
+      "Drain Unclogging"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Electrical",
+    "description": "Comprehensive electrical services, from light installations to smart home setups and electric car charging station installation.",
+    "image": "/images/Electricity.jpg",
+    "services": [
+      "Light/Other Installation",
+      "Repair",
+      "Smart Home Installation",
+      "Generator Setup",
+      "Electric Car Charging Setup"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Beauty",
+    "description": "In-home beauty services for all your styling needs, including hair, makeup, nail care, facials, and massage therapy.",
+    "image": "/images/beauty.jpg",
+    "services": [
+      "Hair",
+      "Makeup",
+      "Nail Care",
+      "Facials",
+      "Massage Therapy"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Moving",
+    "description": "Professional moving and delivery services to assist with packing, transport, unloading, and furniture assembly.",
+    "image": "/images/movement.jpg",
+    "services": [
+      "Packing",
+      "Transport",
+      "Unloading",
+      "Furniture Assembly",
+      "Junk Removal"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Babysitting",
+    "description": "Trusted babysitting services for all ages, including special needs care and travel nanny services.",
+    "image": "/images/babySitter.jpg",
+    "services": [
+      "Infant Care",
+      "Toddler Care",
+      "Daily Babysitter",
+      "Special Needs Care",
+      "Travel Nanny Services"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Personal Teaching",
+    "description": "Experienced tutors offering lessons in language, music, arts, fitness coaching, and school subjects for all ages.",
+    "image": "/images/teacher.jpg",
+    "services": [
+      "Language Tutoring",
+      "Music Lessons",
+      "Art Lessons",
+      "Primary School Tutoring",
+      "Test Preparation (e.g., SAT/ACT)",
+      "Coding Lessons",
+      "Fitness Coaching"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Ceremony Preparation",
+    "description": "Comprehensive event preparation services including planning, decoration, catering, and music setup.",
+    "image": "/images/prep.jpg",
+    "services": [
+      "Event Planning",
+      "Decoration",
+      "Music Setup",
+      "Invitation Design",
+      "Floral Arrangement",
+      "Event Photography",
+      "Catering",
+      "Audio/Visual Setup (Projectors, Sound Systems)"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Appliance Repair",
+    "description": "Reliable repair services for home appliances, from refrigerators and washers to computers and printers.",
+    "image": "/images/repair.jpg",
+    "services": [
+      "Refrigerator Repair",
+      "Washer/Dryer Repair",
+      "AC/Fan Repair",
+      "Dishwasher Repair",
+      "Oven/Stove Repair",
+      "Microwave Repair",
+      "Computer Repair",
+      "Printer Setup and Repair"
+    ]
+  }
+]

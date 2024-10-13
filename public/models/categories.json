@@ -1,0 +1,68 @@
+{
+    "cleaning": {
+      "title": "Cleaning",
+      "description": "Clean your home or office; deep clean appliances and other spaces.",
+      "trending": "Now Trending: Eco-friendly products, home cleaning checklists, and cleaning hacks.",
+      "services": [
+        "Party Clean Up",
+        "Apartment Cleaning",
+        "Deep Clean",
+        "Garage Cleaning",
+        "Move Out Clean"
+      ],
+      "image": "/logos/home-clean.jpg"
+    },
+    "painting": {
+      "title": "Painting",
+      "description": "Paint walls, ceilings, molding, and doors; includes prep and cleanup.",
+      "trending": "Now Trending: Color blocking, stripe details, and statement colors.",
+      "services": [
+        "Interior Painting",
+        "Exterior Painting",
+        "Wallpaper Removal",
+        "Accent Wall Painting",
+        "Concrete & Brick Painting"
+      ],
+      "image": "/logos/StockCake-Painter at Work_1728129298.jpg"
+    },
+    "electrical": {
+      "title": "Electrical",
+      "description": "Electrical installations, repairs, and safety checks for your home or office.",
+      "trending": "Now Trending: Smart home systems, energy-efficient lighting.",
+      "services": [
+        "Light Installation",
+        "Socket Repairs",
+        "Electrical Wiring",
+        "Home Automation",
+        "Energy Efficiency Consultations"
+      ],
+      "image": "/logos/StockCake-Chandelier Installation Work_1728133973.jpg"
+    },
+    "homeRepairs": {
+      "title": "Home Repairs",
+      "description": "Home improvements like plumbing, electrical, and appliance installation.",
+      "trending": "Now Trending: Chandeliers, brass faucets, and smart toilets.",
+      "services": [
+        "Plumbing Repairs",
+        "Door & Window Repairs",
+        "Furniture Assembly",
+        "Roof Repairs",
+        "Flooring Installation"
+      ],
+      "image": "/logos/StockCake-Roofer at Work_1728134558.jpg"
+    },
+    "moving": {
+      "title": "Moving",
+      "description": "Moving help such as packing/unpacking, loading, and lifting heavy items.",
+      "trending": "Now Trending: Single-item moves, apartment moves, and junk removal.",
+      "services": [
+        "Help Moving",
+        "Heavy Lifting & Loading",
+        "Rearrange Furniture",
+        "Truck-Assisted Help Moving",
+        "Junk Haul Away"
+      ],
+      "image": "/logos/StockCake-Delivery Worker Outside_1728135331.jpg"
+    }
+  }
+  
