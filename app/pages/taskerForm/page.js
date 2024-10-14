@@ -30,7 +30,7 @@ const RegistrationForm = () => {
         }
 
         alert("Registration successful");
-        router.push("../pages/taskerDashboard"); // Navigate to login page
+        router.push("../pages/dashboard"); // Navigate to login page
     };
 
     return (

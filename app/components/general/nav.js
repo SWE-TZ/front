@@ -27,7 +27,7 @@ export default function Nav() {
             </li>
 
             <li className="text-[#1B262C] hover:text-[#FBE4CC] transition-colors duration-300 font-semibold">
-              <Link href="/">Pricing</Link>
+              <Link href="/pages/pricing">Pricing</Link>
             </li>
           </ul>
         </div>
@@ -35,14 +35,14 @@ export default function Nav() {
         {/* Login/Sign-In Button */}
         <div className="flex items-center space-x-6">
           {/* Login / Sign In Button */}
-          <Link href="../pages/choose">
+          <Link href="/pages/choose">
             <button className="bg-[#1B262C] text-[#FBE4CC] font-semibold py-3 px-6 rounded-full shadow-md hover:bg-[#FBE4CC] hover:text-[#1B262C] transition-colors duration-300 transform hover:scale-105">
               Login / Sign In
             </button>
           </Link>
 
           {/* Become a Tasker Link */}
-          <Link href="../pages/taskerForm">
+          <Link href="/pages/taskerForm">
             <button className="bg-[#1B262C] text-[#FBE4CC] font-semibold py-3 px-6 rounded-full shadow-md hover:bg-[#FBE4CC] hover:text-[#1B262C] transition-colors duration-300 transform hover:scale-105">
               Become a Tasker
             </button>
