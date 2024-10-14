@@ -1,4 +1,5 @@
 // components/RecentReviews.js
+"use client";
 const RecentReviews = () => {
   const reviews = [
     {

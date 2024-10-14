@@ -3,11 +3,13 @@ import React, { useState } from "react";
 import Image from "next/image";
 // import bg from "/public/logos/bg.jpg";
 import logo from "/public/logos/footer-logo.png";
+import { useRouter } from "next/navigation";
 
 export default function Login() {
   const [user, setUser] = useState("");
   const [password, setPassword] = useState("");
   const [result, setResult] = useState("");
+  const router = useRouter();
 
   const handleInput = (e) => {
     const x = e.target.value;
@@ -33,6 +35,16 @@ export default function Login() {
       setResult("Login Failed");
     }
   };
+
+  const validate =()=>{
+    if(result.includes("Successful"))
+    {
+      router.push('../pages/dashboard')
+    }
+    else{
+      alert("Error credintials!")
+    }
+  }
 
   return (
     <div className="relative w-full h-screen">
@@ -81,16 +93,11 @@ export default function Login() {
             <button
               type="submit"
               className="bg-[#FBE4CC] text-[#1B262C] hover:bg-[#334955] hover:text-[#FBE4CC] font-semibold py-3 px-6 rounded-full transition-transform transform hover:scale-105"
+              onClick={validate}
             >
               Login
             </button>
           </div>
-          {/* Result Message - Only show if result is not empty */}
-          {result && (
-            <div className="absolute bottom-[-30px] left-0 right-0 text-center text-[#FBE4CC] bg-[#1B262C] font-semibold py-2 px-4 rounded-md mt-4">
-              {result}
-            </div>
-          )}
         </form>
       </div>
     </div>

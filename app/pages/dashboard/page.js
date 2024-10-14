@@ -10,7 +10,6 @@ import Earnings from "@/app/components/dashboard/earning";
 import Jobs from "@/app/components/dashboard/jobs";
 import Reviews from "@/app/components/dashboard/reviews";
 import Help from "@/app/components/dashboard/help";
-import Settings from "@/app/components/dashboard/settings";
 import MyServices from "@/app/components/dashboard/myServices";
 
 const Dashboard = () => {
@@ -45,7 +44,6 @@ const Dashboard = () => {
           {category === "Earnings" && <Earnings />}
           {category === "Reviews" && <Reviews />}
           {category === "Help" && <Help />}
-          {category === "Settings" && <Settings />}
         </main>
       </div>
     </div>

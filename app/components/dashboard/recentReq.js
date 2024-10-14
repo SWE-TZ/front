@@ -1,4 +1,5 @@
 // components/RecentServiceRequests.js
+"use client";
 import { EyeIcon } from "@heroicons/react/24/outline";
 
 const RecentServiceRequests = () => {

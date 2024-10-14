@@ -1,4 +1,5 @@
 // components/StatisticCards.js
+"use client";
 import {
   ChatBubbleLeftRightIcon,
   WrenchScrewdriverIcon,

@@ -1,3 +1,4 @@
+"use client";
 import {
   HomeIcon,
   Cog6ToothIcon,
@@ -15,7 +16,6 @@ const SideMenu = ({ menuCategory }) => {
     { name: "Earnings", icon: CurrencyDollarIcon },
     { name: "Reviews", icon: ChatBubbleLeftRightIcon },
     { name: "Help", icon: QuestionMarkCircleIcon },
-    { name: "Settings", icon: Cog6ToothIcon },
   ];
 
   return (
