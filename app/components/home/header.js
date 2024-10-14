@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Header() {
   return (
     <header
@@ -26,9 +27,11 @@ export default function Header() {
         </button>
 
         {/* Secondary Button */}
-        <button className="px-8 py-3 bg-transparent border border-[#FBE4CC] text-[#FBE4CC] font-bold rounded-full hover:bg-[#FBE4CC] hover:text-[#1B262C] transition duration-300 ease-in-out shadow-lg hover:scale-105">
-          Learn More
-        </button>
+        <Link href="/pages/contactUs">
+          <button className="px-8 py-3 bg-transparent border border-[#FBE4CC] text-[#FBE4CC] font-bold rounded-full hover:bg-[#FBE4CC] hover:text-[#1B262C] transition duration-300 ease-in-out shadow-lg hover:scale-105">
+            Learn More
+          </button>
+        </Link>
       </div>
 
       {/* Decorative Element */}

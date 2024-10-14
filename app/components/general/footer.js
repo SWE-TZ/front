@@ -30,31 +30,23 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/products"
+                  href="/pages/service"
                   className="hover:text-[#FBE4CC] hover:underline"
                 >
-                  Products
+                  Services
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/brands"
+                  href="/pages/recommendations"
                   className="hover:text-[#FBE4CC] hover:underline"
                 >
-                  Brands
+                  Recommendations
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/latest"
-                  className="hover:text-[#FBE4CC] hover:underline"
-                >
-                  Latest
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/pricing"
+                  href="/pages/pricing"
                   className="hover:text-[#FBE4CC] hover:underline"
                 >
                   Pricing
@@ -67,49 +59,24 @@ export default function Footer() {
             <ul className="flex flex-col gap-4 font-semibold">
               <li>
                 <Link
-                  href="/about"
-                  className="hover:text-[#FBE4CC] hover:underline"
-                >
-                  About Us
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/contact"
+                  href="/pages/contactUs"
                   className="hover:text-[#FBE4CC] hover:underline"
                 >
                   Contact
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/careers"
-                  className="hover:text-[#FBE4CC] hover:underline"
-                >
-                  Careers
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/faq"
-                  className="hover:text-[#FBE4CC] hover:underline"
-                >
+                <Link href="/" className="hover:text-[#FBE4CC] hover:underline">
                   FAQ
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/terms"
-                  className="hover:text-[#FBE4CC] hover:underline"
-                >
+                <Link href="/" className="hover:text-[#FBE4CC] hover:underline">
                   Terms of Service
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/privacy"
-                  className="hover:text-[#FBE4CC] hover:underline"
-                >
+                <Link href="/" className="hover:text-[#FBE4CC] hover:underline">
                   Privacy Policy
                 </Link>
               </li>
@@ -122,8 +89,8 @@ export default function Footer() {
           <p className="font-semibold text-lg">Contact Us</p>
           <p>
             Email:{" "}
-            <a href="mailto:support@example.com" className="hover:underline">
-              support@example.com
+            <a href="FixitCompany@gmail.com" className="hover:underline">
+              FixitCompany@gmail.com
             </a>
           </p>
           <p>
@@ -132,7 +99,7 @@ export default function Footer() {
               +123 456 789
             </a>
           </p>
-          <p>Address: 123 Example Street, City, Country</p>
+          <p>Address: **** Street, *** City, **** Country</p>
         </div>
       </div>
 
@@ -162,10 +129,7 @@ export default function Footer() {
 
       {/* Bottom Text Section */}
       <div className="container max-w-screen-xl mx-auto py-4 text-center text-[#FBE4CC] border-t border-[#FBE4CC] mt-12">
-        <p>
-          &copy; {new Date().getFullYear()} Your Company Name. All rights
-          reserved.
-        </p>
+        <p>&copy; {new Date().getFullYear()} FIXIT. All rights reserved.</p>
       </div>
     </div>
   );

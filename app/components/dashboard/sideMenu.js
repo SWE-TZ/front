@@ -1,5 +1,3 @@
-"use client";
-import { useState } from "react";
 import {
   HomeIcon,
   Cog6ToothIcon,
@@ -9,7 +7,7 @@ import {
   CurrencyDollarIcon,
 } from "@heroicons/react/24/outline";
 
-const SideMenu = ({menuCategory}) => {
+const SideMenu = ({ menuCategory }) => {
   const menuItems = [
     { name: "Dashboard", icon: HomeIcon },
     { name: "My Services", icon: WrenchScrewdriverIcon },
@@ -31,7 +29,7 @@ const SideMenu = ({menuCategory}) => {
             <li
               key={item.name}
               className="flex items-center p-4 hover:bg-gray-700 cursor-pointer transition-colors duration-200"
-              onClick={()=>menuCategory(`${item.name}`)}
+              onClick={() => menuCategory(`${item.name}`)}
             >
               <item.icon className="w-6 h-6 mr-3 text-light" />
               <span>{item.name}</span>

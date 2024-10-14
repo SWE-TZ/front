@@ -33,7 +33,7 @@ export default function Cat() {
   return (
     <>
       {/* Top Service Icons */}
-      <div className="bg-[#FBE4CC] text-[#1B262C] p-6 mb-12 mt-10">
+      <div className="bg-[#FBE4CC] text-[#1B262C] p-6  mt-10">
         <div className="flex justify-center">
           <ul className="flex flex-wrap justify-center gap-8 md:gap-16 p-3">
             <li className="flex flex-col items-center space-y-2 p-3">
@@ -115,7 +115,12 @@ export default function Cat() {
             <ul className="flex gap-4 flex-wrap justify-center">
               {selectedCategory.services.map((service, index) => (
                 <li key={index}>
-                  <button className="border border-[#1B262C] px-4 py-2 rounded-full text-center hover:bg-[#1B262C] hover:text-[#FBE4CC] transition-colors duration-300 transform hover:scale-105" onClick={()=>router.push(`/pages/request/${selectedCategory.title}`)}>
+                  <button
+                    className="border border-[#1B262C] px-4 py-2 rounded-full text-center hover:bg-[#1B262C] hover:text-[#FBE4CC] transition-colors duration-300 transform hover:scale-105"
+                    onClick={() =>
+                      router.push(`/pages/request/${selectedCategory.title}`)
+                    }
+                  >
                     {service}
                   </button>
                 </li>
