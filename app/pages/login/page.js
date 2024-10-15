@@ -8,7 +8,6 @@ import { useRouter } from "next/navigation";
 export default function Login() {
   const [user, setUser] = useState("");
   const [password, setPassword] = useState("");
-  const [result, setResult] = useState("");
   const router = useRouter();
 
   const handleInput = (e) => {
@@ -28,15 +27,18 @@ export default function Login() {
       "doaa@yahoo.com",
       "Ali@gmail.com",
     ];
+    let result;
     const pass = ["1234", "5678", "0000", "8888"];
     if (username.includes(user) && pass.includes(password)) {
-      setResult("Login Successful");
+      result = "Login Successful";
     } else {
-      setResult("Login Failed");
+      result =  "Login Failed";
     }
+    validate(result);
   };
 
-  const validate =()=>{
+  function validate(result){
+    console.log(user," and th pass is : ",password, " and the result is  : ",result)
     if(result.includes("Successful"))
     {
       router.push('../pages/dashboard')
@@ -93,7 +95,7 @@ export default function Login() {
             <button
               type="submit"
               className="bg-[#FBE4CC] text-[#1B262C] hover:bg-[#334955] hover:text-[#FBE4CC] font-semibold py-3 px-6 rounded-full transition-transform transform hover:scale-105"
-              onClick={validate}
+              
             >
               Login
             </button>

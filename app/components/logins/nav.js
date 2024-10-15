@@ -4,7 +4,7 @@ import logo from "@/public/images/logo.png";
 
 export default function Nav() {
   return (
-    <div className="fixed z-50 bg-[#FBE4CC]  px-6 md:px-8 w-full  shadow-md backdrop-blur-sm">
+    <div className="fixed z-50 bg-[#FBE4CC] px-6 md:px-8 w-full  shadow-md backdrop-blur-sm">
       <div className="h-full container mx-auto max-w-screen-xl flex items-center justify-between">
         {/* Logo Section */}
         <div className="flex items-center">
