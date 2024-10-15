@@ -200,7 +200,7 @@ export default function Recommendations({params}) {
 
                 <div className="grid grid-col-4 gap-10">
 
-                    <div className="col-start-1 border-2 border-dark rounded-lg mb-[50px] h-[500px] shadow-2xl">
+                    <div className="col-start-1 border-2 border-dark rounded-lg mb-[50px] h-[430px] max-w-[540px] shadow-2xl">
                         <div className="container mx-auto px-[1px] mb-[40px]">
                             <div className="mb-[20px] flex items-center justify-between">
                                 <span className="text-dark font-bold pl-[30px]">DATE</span>
