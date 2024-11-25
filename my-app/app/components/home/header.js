@@ -9,8 +9,8 @@ export default function Header() {
       <div className="absolute inset-0 bg-black opacity-40"></div>
 
       {/* Main Heading */}
-      <h1 className="text-5xl md:text-8xl font-extrabold text-white relative z-10 mt-4 md:mt-0 tracking-wider drop-shadow-lg">
-        Welcome to DOCTOR Connect
+      <h1 className="md:text-8xl  text-white relative z-10 mt-4 md:mt-0 tracking-wider drop-shadow-lg">
+        Doctor Connect
       </h1>
 
       {/* Subheading */}
@@ -22,7 +22,7 @@ export default function Header() {
       {/* Button Group */}
       <div className="relative z-10 flex space-x-4 mt-10">
         {/* Primary Call-to-Action Button */}
-        <button className="px-8 py-3 bg-light text-dark font-bold rounded-full hover:bg-[#e6c9b2] transition duration-300 ease-in-out shadow-lg hover:scale-105">
+        <button className="px-8 py-3 bg-light text-dark font-bold rounded-full hover:bg-dark hover:text-light transition duration-300 ease-in-out shadow-lg hover:scale-105">
           Get Started
         </button>
 

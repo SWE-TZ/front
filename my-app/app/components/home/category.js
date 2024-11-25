@@ -1,11 +1,11 @@
 "use client";
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import cardio from "/public/images/cardio.png";
-import nueurologist from "/public/images/Neurologist.webp";
-import gynecologist from "/public/images/Gynecologist.jpg";
-import Imedicnie from "/public/images/Internal medicine.jpg";
-import physiotherapist from "/public/images/Physiotherapist.jpg";
+import cardio from "@/public/images/heart.png";
+import nueurologist from "@/public/images/brain.png";
+import gynecologist from "@/public/images/mom.png";
+import Imedicnie from "@/public/images/stomach.png";
+import physiotherapist from "@/public/images/muscle.png";
 import { useRouter } from "next/navigation";
 
 export default function Cat() {
@@ -40,27 +40,27 @@ export default function Cat() {
               <button onClick={() => handleCategoryClick("Cardiologist")}>
                 <Image
                   src={cardio}
-                  width={50}
-                  height={50}
+                  width={100}
+                  height={100}
                   alt="cardiologist"
-                  className="mx-auto"
+                  className="mx-auto hover:w-[120px] hover:transition-smooth"
                 />
-                <p className="font-semibold text-center text-dark">
+                <p className=" text-center text-dark">
                   Cardiologist
                 </p>
               </button>
             </li>
             <li className="flex flex-col items-center space-y-2 p-3">
-              <button onClick={() => handleCategoryClick("Nueurologist")}>
+              <button onClick={() => handleCategoryClick("Neurologist")}>
                 <Image
                   src={nueurologist}
-                  width={50}
-                  height={50}
+                  width={100}
+                  height={100}
                   alt="nueurologist"
                   className="mx-auto"
                 />
-                <p className="font-semibold text-center text-dark">
-                  Nueurologist
+                <p className="text-center text-dark">
+                  Neurologist
                 </p>
               </button>
             </li>
@@ -68,26 +68,26 @@ export default function Cat() {
               <button onClick={() => handleCategoryClick("Physiotherapist")}>
                 <Image
                   src={physiotherapist}
-                  width={50}
-                  height={50}
+                  width={100}
+                  height={100}
                   alt="physiotherapist"
                   className="mx-auto"
                 />
-                <p className="font-semibold text-center text-dark">
+                <p className="text-center text-dark">
                   Physiotherapist
                 </p>
               </button>
             </li>
             <li className="flex flex-col items-center space-y-2 p-3">
-              <button onClick={() => handleCategoryClick("InterMedicine")}>
+              <button onClick={() => handleCategoryClick("InternalMedicine")}>
                 <Image
                   src={Imedicnie}
-                  width={50}
-                  height={50}
+                  width={100}
+                  height={100}
                   alt="intermedicine"
                   className="mx-auto"
                 />
-                <p className="font-semibold text-center text-dark">
+                <p className="text-center text-dark">
                   Internal Medicine
                 </p>
               </button>
@@ -96,12 +96,12 @@ export default function Cat() {
               <button onClick={() => handleCategoryClick("Gynecologist")}>
                 <Image
                   src={gynecologist}
-                  width={50}
-                  height={50}
+                  width={100}
+                  height={100}
                   alt="gynecologist"
                   className="mx-auto"
                 />
-                <p className="font-semibold text-center text-dark">
+                <p className="text-center text-dark">
                   Gynecologist
                 </p>
               </button>
@@ -145,10 +145,8 @@ export default function Cat() {
               <h2 className="text-2xl font-bold mb-4 text-center">
                 {selectedCategory.title}
               </h2>
-              <ul className="list-disc pl-5 text-lg">
+              <ul className="list-disc text-lg">
                 <li>{selectedCategory.description}</li>
-                <br />
-                <li>{selectedCategory.trending}</li>
               </ul>
             </div>
           </div>

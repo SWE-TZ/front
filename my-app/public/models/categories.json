@@ -1,57 +1,56 @@
 {
-    "Cardiologist": {
-      "title": "Cardiologist",
-      "description": "Examines your heart and blood pressure.",
-      "services": [
-        "Heart examination",
-        "Stress Tests",
-        "Holter Monitoring"
-      ],
-      "image": "/images/cardio.png"
-    },
-    "Neurologist": {
-      "title": "Neurologist",
-      "description": "Neurologists specialize in diagnosing, treating, and managing disorders of the brain, spinal cord, and peripheral nervous system.",
-      "services": [
-        "Neurological Examinations",
-        "Lumbar Punctures",
-        "Spinal Taps",
-        "Blood Tests"
-      ],
-      "image": "/images/Neurologist.webp"
-    },
-    "Physiotherapist": {
-      "title": "Physiotherapist",
-      "description": "Physiotherapists specialize in improving physical function, mobility, and overall well-being through exercises, manual therapy, and other non-invasive treatments.",
-      "services": [
-        "Physical Assessments",
-        "Pain Diagnosis",
-        "Functional Evaluations",
-        "Stroke Recovery"
-      ],
-      "image": "/images/Physiotherapist.jpg"
-    },
-    "InternalMedicine": {
-      "title": "Internal Medicine",
-      "description": "Internal medicine physicians, also known as internists, specialize in the prevention, diagnosis, and treatment of adult illnesses and conditions.",
-      "services": [
-        "Screening Tests",
-        "Respiratory Infections",
-        "Gastrointestinal Issues",
-        "Thyroid Disorders"
-      ],
-      "image": "/images/Internal medicine.jpg"
-    },
-    "Gynecologist": {
-      "title": "Gynecologist",
-      "description": "Gynecologists specialize in women's reproductive health, providing care for various conditions, performing surgeries, and supporting women through different life stages.",
-      "services": [
-        "Annual Check-Ups",
-        "Pap Smears",
-        "Breast Exams",
-        "HPV Vaccination"
-      ],
-      "image": "/images/Gynecologist.jpg"
-    }
+  "Cardiologist": {
+    "title": "Cardiologist",
+    "description": "Examines your heart and blood pressure.",
+    "services": [
+      "Heart examination",
+      "Stress Tests",
+      "Holter Monitoring"
+    ],
+    "image": "/images/cardio.jpg"
+  },
+  "Neurologist": {
+    "title": "Neurologist",
+    "description": "Neurologists specialize in diagnosing, treating, and managing disorders of the brain, spinal cord, and peripheral nervous system.",
+    "services": [
+      "Neurological Examinations",
+      "Lumbar Punctures",
+      "Spinal Taps",
+      "Blood Tests"
+    ],
+    "image": "/images/Neurologist.jpg"
+  },
+  "Physiotherapist": {
+    "title": "Physiotherapist",
+    "description": "Physiotherapists specialize in improving physical function, mobility, and overall well-being through exercises, manual therapy, and other non-invasive treatments.",
+    "services": [
+      "Physical Assessments",
+      "Pain Diagnosis",
+      "Functional Evaluations",
+      "Stroke Recovery"
+    ],
+    "image": "/images/Physiotherapist.jpg"
+  },
+  "InternalMedicine": {
+    "title": "Internal Medicine",
+    "description": "Internal medicine physicians, also known as internists, specialize in the prevention, diagnosis, and treatment of adult illnesses and conditions.",
+    "services": [
+      "Screening Tests",
+      "Respiratory Infections",
+      "Gastrointestinal Issues",
+      "Thyroid Disorders"
+    ],
+    "image": "/images/Internal_medicine.jpg"
+  },
+  "Gynecologist": {
+    "title": "Gynecologist",
+    "description": "Gynecologists specialize in women's reproductive health, providing care for various conditions, performing surgeries, and supporting women through different life stages.",
+    "services": [
+      "Annual Check-Ups",
+      "Pap Smears",
+      "Breast Exams",
+      "HPV Vaccination"
+    ],
+    "image": "/images/Gynecologist.jpg"
   }
-  
+}

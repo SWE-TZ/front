@@ -11,20 +11,20 @@ export default function Review() {
     {
       name: "Amanda L.",
       review:
-        "I hired Joe to patch 2 holes on my wall and 1 hole on my ceiling. Joe was great with communication, fast, professional and did a fantastic job.",
-      service: "Home Repairs",
+        "I had my first baby after 8 months of appointments with a Gynecologist from the website, and now i have a healthy 4 kilo baby.",
+      service: "Gynecologist",
     },
     {
       name: "Sabrina K.",
       review:
-        "Aleksandr was fantastic! He came with all the equipment to do the job, even the hardware I didn’t know I would need.",
-      service: "Electrical Help",
+        "I had a crucial internal stomach pain that made me dying for days until making an appointment here.",
+      service: "Internal Medicine",
     },
     {
       name: "Jana T.",
       review:
-        "Jose fixed my AC drain line which was clogging my master bathroom sink. He was prompt, communicative, and efficient. Highly recommend!",
-      service: "Plumbing",
+        "My cousin was suffering from dawn syndrome, but after appointments with nuerons doctor for 2 year, he now has up syndrome.",
+      service: "Neurologist",
     },
   ];
 

@@ -22,9 +22,9 @@ export default function Login() {
   const ShowResult = (e) => {
     e.preventDefault();
     const username = [
-      "Rawan@gmail.com",
+      "Omar@gmail.com",
       "Mohammed@hotmail.com",
-      "doaa@yahoo.com",
+      "Asmaa@yahoo.com",
       "Ali@gmail.com",
     ];
     let result;

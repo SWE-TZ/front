@@ -41,7 +41,7 @@ export default function Footer() {
                   href="#"
                   className="hover:text-light hover:underline"
                 >
-                  Recommendations
+                  Appointments
                 </Link>
               </li>
               <li>
@@ -49,7 +49,7 @@ export default function Footer() {
                   href="#"
                   className="hover:text-light hover:underline"
                 >
-                  Pricing
+                  Privacy Policy
                 </Link>
               </li>
             </ul>
@@ -66,18 +66,13 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/" className="hover:text-light hover:underline">
+                <Link href="#" className="hover:text-light hover:underline">
                   FAQ
                 </Link>
               </li>
               <li>
-                <Link href="/" className="hover:text-light hover:underline">
+                <Link href="#" className="hover:text-light hover:underline">
                   Terms of Service
-                </Link>
-              </li>
-              <li>
-                <Link href="/" className="hover:text-light hover:underline">
-                  Privacy Policy
                 </Link>
               </li>
             </ul>

@@ -20,14 +20,14 @@ export default function Nav() {
               <Link href="/">Home</Link>
             </li>
             <li className="text-dark hover:text-light transition-colors duration-300 font-semibold">
-              <Link href="#">Services</Link>
+              <Link href="#">Doctors</Link>
             </li>
             <li className="text-dark hover:text-light transition-colors duration-300 font-semibold">
-              <Link href="#">Recommendations</Link>
+              <Link href="#">Appointments</Link>
             </li>
 
             <li className="text-dark hover:text-light transition-colors duration-300 font-semibold">
-              <Link href="#">Pricing</Link>
+              <Link href="#">Contact us</Link>
             </li>
           </ul>
         </div>

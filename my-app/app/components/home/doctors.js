@@ -12,7 +12,7 @@ export default function Doctors() {
       {/* Section Title */}
       <div className="text-center mb-10">
         <h2 className="text-dark bg-light text-center font-bold text-4xl p-4 mb-10">
-          OUR Top Doctors
+          Top Doctors
         </h2>
         <div className="flex justify-center">
           <span className="block w-24 h-1 bg-dark rounded"></span>
@@ -27,15 +27,14 @@ export default function Doctors() {
               key={index}
               className="bg-dark p-4 w-[350px] h-[320px] flex flex-col items-center rounded-3xl hover:scale-105 transition-transform duration-300 shadow-lg"
             >
-              <div className="w-[280px] h-[180px] flex items-center justify-center overflow-hidden rounded-lg">
+              <div class="flex items-center justify-center w-full h-64 bg-dark rounded-lg overflow-hidden">
                 <Image
                   src={project.image}
-                  width={280}
-                  height={180}
-                  objectFit="contain"
-                  alt={project.title}
+                  alt="Doctor Image"
+                  class="object-contain w-full h-full"
                 />
               </div>
+
               <p className="text-light mt-4 text-2xl font-semibold">
                 {project.title}
               </p>
