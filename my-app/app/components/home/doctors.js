@@ -63,7 +63,7 @@ const FamousDoctors = [
   },
   {
     title: "Physiotherapist",
-    Name: "Nihal Mohammed",
+    Name: "asmaa desokey",
     image: doctor3,
   },
   {

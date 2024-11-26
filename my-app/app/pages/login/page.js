@@ -22,13 +22,13 @@ export default function Login() {
   const ShowResult = (e) => {
     e.preventDefault();
     const username = [
-      "Omar@gmail.com",
-      "Mohammed@hotmail.com",
-      "Asmaa@yahoo.com",
-      "Ali@gmail.com",
+      "omar@zewailcity.edu.eg",
+      "asmaa@zewailcity.edu.eg",
+      "ali@zewailcity.edu.eg",
+      "mariam@zewailcity.edu.eg",
     ];
     let result;
-    const pass = ["1234", "5678", "0000", "8888"];
+    const pass = ["0000","1111", "2222", "3333"];
     if (username.includes(user) && pass.includes(password)) {
       result = "Login Successful";
     } else {

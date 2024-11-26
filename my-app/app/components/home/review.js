@@ -5,25 +5,25 @@ export default function Review() {
     {
       name: "Mary K.",
       review:
-        "My Uncle Saeed had cancer at the 2nd level, after eating mahshi he died and the doctor helped us knowing the cause of death.",
+        "Exceptional care with a focus on comprehensive diagnosis and personalized treatment.",
       service: "Internal Medicine",
     },
     {
       name: "Amanda L.",
       review:
-        "I had my first baby after 8 months of appointments with a Gynecologist from the website, and now i have a healthy 4 kilo baby.",
+        "Compassionate and professional care, prioritizing women's health and well-being.",
       service: "Gynecologist",
     },
     {
       name: "Sabrina K.",
       review:
-        "I had a crucial internal stomach pain that made me dying for days until making an appointment here.",
+        "Thorough, knowledgeable, and dedicated to delivering top-notch patient care.",
       service: "Internal Medicine",
     },
     {
       name: "Jana T.",
       review:
-        "My cousin was suffering from dawn syndrome, but after appointments with nuerons doctor for 2 year, he now has up syndrome.",
+        "Expert care with a deep understanding of complex neurological conditions.",
       service: "Neurologist",
     },
   ];
