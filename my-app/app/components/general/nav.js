@@ -42,7 +42,7 @@ export default function Nav() {
           </Link>
 
           {/* Become a Tasker Link */}
-          <Link href="#">
+          <Link href="/pages/doctor_signup">
             <button className="bg-dark text-light font-semibold py-3 px-6 rounded-full shadow-md hover:bg-light hover:text-dark transition-colors duration-300 transform hover:scale-105">
               Join us
             </button>

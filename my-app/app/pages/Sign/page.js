@@ -21,7 +21,7 @@ export default function SignUp() {
 
   return (
     <>
-      <div className="relative w-full h-screen overflow-hidden">
+      <div className="relative w-full h-screen overflow-hidden bg-light">
         {/* Background Image */}
         {/* <Image
           src={bg}

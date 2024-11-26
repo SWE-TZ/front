@@ -49,7 +49,7 @@ export default function Login() {
   }
 
   return (
-    <div className="relative w-full h-screen">
+    <div className="relative w-full h-screen bg-light">
       {/* Background Image */}
       {/* <Image
         src={bg}

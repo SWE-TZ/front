@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Choose() {
   return (
-    <div className="relative w-full h-screen">
+    <div className="relative w-full h-screen bg-light">
       <div className="relative z-10 flex justify-center items-center h-full">
         <form className="bg-dark bg-opacity-80 p-8 rounded-3xl shadow-2xl max-w-md w-full mx-auto flex flex-col relative backdrop-blur-md">
           {/* Logo */}

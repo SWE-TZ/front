@@ -23,6 +23,9 @@ export default function Nav() {
               <Link href="/pages/service">Services</Link>
             </li>
             <li className="text-[#1B262C] hover:text-[#FBE4CC] transition-colors duration-300 font-semibold">
+              <Link href="/pages/doctor_signup">Services</Link>
+            </li>
+            <li className="text-[#1B262C] hover:text-[#FBE4CC] transition-colors duration-300 font-semibold">
               <Link href="/pages/recommendations">Recommendations</Link>
             </li>
 
