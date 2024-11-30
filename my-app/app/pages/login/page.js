@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-// import bg from "/public/logos/bg.jpg";
 import logo from "/public/images/logo.png";
 import { useRouter } from "next/navigation";
 
