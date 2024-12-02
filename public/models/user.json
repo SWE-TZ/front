@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "email": "john.doe@example.com",
+    "password": "password123",
+    "name": "Dr. John Doe",
+    "specialization": "Cardiology",
+    "photo": "/images/doctor1.jpg"
+  },
+  {
+    "id": 2,
+    "email": "jane.smith@example.com",
+    "password": "pass456word",
+    "name": "Dr. Jane Smith",
+    "specialization": "Dermatology",
+    "photo": "/images/doctor2.jpg"
+  },
+  {
+    "id": 3,
+    "email": "mark.johnson@example.com",
+    "password": "mypassword789",
+    "name": "Dr. Mark Johnson",
+    "specialization": "Neurology",
+    "photo": "/images/doctor3.jpg"
+  },
+  {
+    "id": 4,
+    "email": "emily.davis@example.com",
+    "password": "emily321pass",
+    "name": "Dr. Emily Davis",
+    "specialization": "Pediatrics",
+    "photo": "/images/doctor4.jpg"
+  },
+  {
+    "id": 5,
+    "email": "chris.brown@example.com",
+    "password": "brownpass654",
+    "name": "Dr. Chris Brown",
+    "specialization": "Orthopedics",
+    "photo": "/images/doctor5.jpg"
+  },
+  {
+    "id": 6,
+    "email": "sara.wilson@example.com",
+    "password": "wilsonpass321",
+    "name": "Dr. Sara Wilson",
+    "specialization": "Gastroenterology",
+    "photo": "/images/doctor6.jpg"
+  }
+]

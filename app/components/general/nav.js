@@ -11,7 +11,11 @@ export default function Nav() {
           <Link href="/">
             <Image src={logo} alt="Logo" className="w-[100px] h-auto" />
           </Link>
+          <li className="text-dark hover:text-light transition-colors duration-300 font-semibold">
+              <Link href="/pages/user_profile">profile</Link>
+            </li>
         </div>
+        
 
         {/* Navigation Links */}
         <div className="flex flex-grow justify-center md:justify-center space-x-6 font-bold">
@@ -20,10 +24,10 @@ export default function Nav() {
               <Link href="/">Home</Link>
             </li>
             <li className="text-dark hover:text-light transition-colors duration-300 font-semibold">
-              <Link href="#">Doctors</Link>
+            <Link href="/pages/recommendations">Doctors</Link>
             </li>
             <li className="text-dark hover:text-light transition-colors duration-300 font-semibold">
-              <Link href="#">Appointments</Link>
+              <Link href="/">MY Appointments</Link>
             </li>
 
             <li className="text-dark hover:text-light transition-colors duration-300 font-semibold">

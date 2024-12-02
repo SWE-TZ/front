@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "user_id": 1,
+    "doctor_id": 3,
+    "description": "Excellent consultation! Dr. Mark was very professional and knowledgeable.",
+    "rating": 4.8
+  },
+  {
+    "id": 2,
+    "user_id": 2,
+    "doctor_id": 5,
+    "description": "Dr. Chris was very patient and efficient. Highly recommend!",
+    "rating": 5.0
+  },
+  {
+    "id": 3,
+    "user_id": 3,
+    "doctor_id": 1,
+    "description": "Dr. John provided great care, but the appointment started late.",
+    "rating": 4.2
+  },
+  {
+    "id": 4,
+    "user_id": 4,
+    "doctor_id": 2,
+    "description": "Dr. Jane was friendly and thorough, but the waiting time was long.",
+    "rating": 3.9
+  },
+  {
+    "id": 5,
+    "user_id": 5,
+    "doctor_id": 4,
+    "description": "Dr. Emily's attention to detail was exceptional. Highly satisfied!",
+    "rating": 4.9
+  },
+  {
+    "id": 6,
+    "user_id": 6,
+    "doctor_id": 6,
+    "description": "Dr. Sara was efficient and resolved my issue promptly.",
+    "rating": 4.6
+  }]

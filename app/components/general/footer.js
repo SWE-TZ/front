@@ -29,16 +29,16 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link
-                  href="#"
-                  className="hover:text-light hover:underline"
+              <Link
+                  href="/pages/recommendations"
+                  className="hover:text-[#FBE4CC] hover:underline"
                 >
                   Doctors
                 </Link>
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/pages/recommendations"
                   className="hover:text-light hover:underline"
                 >
                   Appointments

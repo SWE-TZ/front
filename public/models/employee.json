@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. John Doe",
+    "category": "Cardiology",
+    "rating": "4.5",
+    "overview": "Experienced cardiologist with 10+ years in treating heart conditions.",
+    "location": "Springfield Medical Center",
+    "reviews_num": "40",
+    "patients_seen": "120",
+    "reviews": [
+      {
+        "reviewer": "Alice Green",
+        "comment": "Dr. John is very knowledgeable and helped me with my heart condition.",
+        "rating": 5
+      },
+      {
+        "reviewer": "Bob White",
+        "comment": "Great consultation, but I had to wait a bit longer than expected.",
+        "rating": 4
+      }
+    ],
+    "price": "150",
+    "start_time": "8:00 AM",
+    "end_time": "4:00 PM",
+    "available_days": "Monday - Wednesday - Friday",
+    "photo": "/images/doctor_1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Jane Smith",
+    "category": "Dermatology",
+    "rating": "4.8",
+    "overview": "Specialist in treating skin conditions and cosmetic dermatology.",
+    "location": "Metropolis Skin Clinic",
+    "reviews_num": "300",
+    "patients_seen": "470",
+    "reviews": [
+      {
+        "reviewer": "Linda Blake",
+        "comment": "Dr. Jane's treatment transformed my skin. Highly recommended!",
+        "rating": 5
+      },
+      {
+        "reviewer": "Tom Carter",
+        "comment": "Very thorough and quick. Results were excellent.",
+        "rating": 5
+      }
+    ],
+    "price": "120",
+    "start_time": "9:00 AM",
+    "end_time": "5:00 PM",
+    "available_days": "Tuesday - Thursday",
+    "photo": "/images/doctor_2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Mark Johnson",
+    "category": "Neurology",
+    "rating": "4.7",
+    "overview": "Experienced neurologist specializing in disorders of the nervous system.",
+    "location": "Gotham Neuroscience Center",
+    "reviews_num": "700",
+    "patients_seen": "1019",
+    "reviews": [
+      {
+        "reviewer": "Steve Rodgers",
+        "comment": "Dr. Mark diagnosed my condition accurately. I feel much better now.",
+        "rating": 5
+      },
+      {
+        "reviewer": "Clara Summers",
+        "comment": "Good doctor, but a bit expensive for the consultation.",
+        "rating": 4
+      }
+    ],
+    "price": "200",
+    "start_time": "8:30 AM",
+    "end_time": "6:00 PM",
+    "available_days": "Monday - Wednesday - Friday",
+    "photo": "/images/doctor_3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Dr. Emily Davis",
+    "category": "Pediatrics",
+    "rating": "4.6",
+    "overview": "Caring pediatrician with a focus on children's health and development.",
+    "location": "Star City Children's Hospital",
+    "reviews_num": "19",
+    "patients_seen": "33",
+    "reviews": [
+      {
+        "reviewer": "Nicole Reese",
+        "comment": "Dr. Emily is great with kids. My son loves visiting her!",
+        "rating": 5
+      },
+      {
+        "reviewer": "James Collins",
+        "comment": "She is good, but I expected more personalized attention.",
+        "rating": 4
+      }
+    ],
+    "price": "90",
+    "start_time": "9:00 AM",
+    "end_time": "3:00 PM",
+    "available_days": "Monday - Tuesday - Thursday",
+    "photo": "/images/doctor_4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Dr. Chris Brown",
+    "category": "Orthopedics",
+    "rating": "4.9",
+    "overview": "Expert in musculoskeletal issues, focusing on bones and joints.",
+    "location": "Riverdale Orthopedic Clinic",
+    "reviews_num": "800",
+    "patients_seen": "1300",
+    "reviews": [
+      {
+        "reviewer": "Sarah Johnson",
+        "comment": "Dr. Chris helped me recover from a knee injury with minimal pain.",
+        "rating": 5
+      },
+      {
+        "reviewer": "Mike Watson",
+        "comment": "Excellent doctor, but the costs are a bit high.",
+        "rating": 4.5
+      }
+    ],
+    "price": "180",
+    "start_time": "10:00 AM",
+    "end_time": "6:00 PM",
+    "available_days": "Monday - Wednesday - Friday - Saturday",
+    "photo": "/images/doctor_5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Dr. Sara Wilson",
+    "category": "Gastroenterology",
+    "rating": "4.4",
+    "overview": "Skilled gastroenterologist specializing in digestive disorders.",
+    "location": "Hill Valley Digestive Center",
+    "reviews_num": "360",
+    "patients_seen": "502",
+    "reviews": [
+      {
+        "reviewer": "Greg Miles",
+        "comment": "Dr. Sara helped with my digestive issues. I feel so much better!",
+        "rating": 4.5
+      },
+      {
+        "reviewer": "Emily Norton",
+        "comment": "Great doctor, very attentive, and explained everything well.",
+        "rating": 5
+      }
+    ],
+    "price": "160",
+    "start_time": "8:00 AM",
+    "end_time": "4:00 PM",
+    "available_days": "Monday - Tuesday - Thursday",
+    "photo": "/images/doctor_6.jpg"
+  }
+]

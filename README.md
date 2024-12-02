@@ -1,71 +1,36 @@
-# DoctorConnect  
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-**DoctorConnect** is a healthcare platform designed to improve access to healthcare services. It enables users to book doctor appointments and interact with healthcare providers efficiently.
+## Getting Started
 
----
+First, run the development server:
 
-## Features  
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-- **User-Friendly Interface**: Browse and book medical services easily.  
-- **Doctor Profiles**: View detailed profiles, including qualifications and reviews.  
-- **Search and Filter**: Find doctors based on specialty, location, availability, and more.  
-- **Appointment Management**: Schedule, reschedule, or cancel appointments.  
-- **Ratings and Reviews**: Rate and review doctors after consultations.  
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
----
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-## Getting Started  
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-### Prerequisites  
+## Learn More
 
-Ensure the following are installed on your machine:  
+To learn more about Next.js, take a look at the following resources:
 
-- [Node.js](https://nodejs.org/)  
-- npm or [yarn](https://yarnpkg.com/)  
-- [Git](https://git-scm.com/)  
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-### Installation  
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-1. **Clone the repository**:  
-   ```bash  
-   git clone https://github.com/YourRepo/DoctorConnect.git  
-   ```  
+## Deploy on Vercel
 
-2. **Navigate to the project directory**:  
-   ```bash  
-   cd DoctorConnect  
-   ```  
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-3. **Install dependencies**:  
-   ```bash  
-   npm install  
-   # or  
-   yarn install  
-   ```  
-
-4. **Start the development server**:  
-   ```bash  
-   npm run dev  
-   # or  
-   yarn dev  
-   ```  
-
-5. **Access the application**:  
-   Open your browser and go to [http://localhost:3000](http://localhost:3000).  
-
----
-
-## Usage  
-
-- **Patients**:  
-  - Search for doctors, view profiles, and book appointments.  
-  - Manage personal health profiles.  
-
-- **Doctors**:  
-  - Manage appointments and availability.  
-  - View and respond to patient messages.  
-
-- **Admin**:  
-  - Oversee user accounts and manage system configurations.  
-
----
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
