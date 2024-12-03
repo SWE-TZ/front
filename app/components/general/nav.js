@@ -31,7 +31,7 @@ export default function Nav() {
             </li>
 
             <li className="text-dark hover:text-light transition-colors duration-300 font-semibold">
-              <Link href="#">Contact us</Link>
+              <Link href="/pages/contactUs">Contact us</Link>
             </li>
           </ul>
         </div>
