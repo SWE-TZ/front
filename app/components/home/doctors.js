@@ -27,11 +27,11 @@ export default function Doctors() {
               key={index}
               className="bg-dark p-4 w-[350px] h-[320px] flex flex-col items-center rounded-3xl hover:scale-105 transition-transform duration-300 shadow-lg"
             >
-              <div class="flex items-center justify-center w-full h-64 bg-dark rounded-lg overflow-hidden">
+              <div className="flex items-center justify-center w-full h-64 bg-dark rounded-lg overflow-hidden">
                 <Image
                   src={project.image}
                   alt="Doctor Image"
-                  class="object-contain w-full h-full"
+                  className="object-contain w-full h-full"
                 />
               </div>
 

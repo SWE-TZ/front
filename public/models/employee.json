@@ -3,53 +3,53 @@
     "id": 1,
     "name": "Dr. John Doe",
     "category": "Cardiology",
-    "rating": "4.5",
-    "overview": "Experienced cardiologist with 10+ years in treating heart conditions.",
-    "location": "Springfield Medical Center",
-    "reviews_num": "40",
-    "patients_seen": "120",
+    "rating": "5.0",
+    "overview": "Experienced cardiologist with over 15 years in heart disease treatment.",
+    "location": "Heart Care Clinic",
+    "reviews_num": "14",
+    "patients_seen": "128",
     "reviews": [
       {
-        "reviewer": "Alice Green",
-        "comment": "Dr. John is very knowledgeable and helped me with my heart condition.",
+        "reviewer": "Anna Lee",
+        "comment": "Dr. Doe is very professional and caring. Highly recommended!",
         "rating": 5
       },
       {
-        "reviewer": "Bob White",
-        "comment": "Great consultation, but I had to wait a bit longer than expected.",
+        "reviewer": "Mark Roberts",
+        "comment": "Great experience, but wait times were long.",
         "rating": 4
       }
     ],
-    "price": "150",
-    "start_time": "8:00 AM",
-    "end_time": "4:00 PM",
+    "price": "100",
+    "start_time": "9:00 AM",
+    "end_time": "5:00 PM",
     "available_days": "Monday - Wednesday - Friday",
     "photo": "/images/doctor_1.jpg"
   },
   {
     "id": 2,
     "name": "Dr. Jane Smith",
-    "category": "Gynecologist",
-    "rating": "4.8",
-    "overview": "Specialist in treating skin conditions and cosmetic dermatology.",
-    "location": "Metropolis Skin Clinic",
-    "reviews_num": "300",
-    "patients_seen": "470",
+    "category": "Dermatology",
+    "rating": "4.2",
+    "overview": "Expert in treating various skin conditions and improving skin health.",
+    "location": "Skin Care Center",
+    "reviews_num": "11",
+    "patients_seen": "85",
     "reviews": [
       {
-        "reviewer": "Linda Blake",
-        "comment": "Dr. Jane's treatment transformed my skin. Highly recommended!",
-        "rating": 5
+        "reviewer": "Linda Green",
+        "comment": "Very professional and knowledgeable dermatologist.",
+        "rating": 4
       },
       {
-        "reviewer": "Tom Carter",
-        "comment": "Very thorough and quick. Results were excellent.",
+        "reviewer": "Paul Miller",
+        "comment": "The acne treatment worked wonders for me.",
         "rating": 5
       }
     ],
-    "price": "120",
-    "start_time": "9:00 AM",
-    "end_time": "5:00 PM",
+    "price": "150",
+    "start_time": "8:00 AM",
+    "end_time": "4:00 PM",
     "available_days": "Tuesday - Thursday",
     "photo": "/images/doctor_2.jpg"
   },
@@ -57,108 +57,351 @@
     "id": 3,
     "name": "Dr. Mark Johnson",
     "category": "Neurology",
-    "rating": "4.7",
-    "overview": "Experienced neurologist specializing in disorders of the nervous system.",
-    "location": "Gotham Neuroscience Center",
-    "reviews_num": "700",
-    "patients_seen": "1019",
+    "rating": "3.7",
+    "overview": "Leading neurologist with expertise in brain and nervous system disorders.",
+    "location": "Brain & Nerve Center",
+    "reviews_num": "8",
+    "patients_seen": "50",
     "reviews": [
       {
-        "reviewer": "Steve Rodgers",
-        "comment": "Dr. Mark diagnosed my condition accurately. I feel much better now.",
-        "rating": 5
+        "reviewer": "Jane Parker",
+        "comment": "Dr. Johnson is very thorough, but his office was hard to find.",
+        "rating": 4
       },
       {
-        "reviewer": "Clara Summers",
-        "comment": "Good doctor, but a bit expensive for the consultation.",
-        "rating": 4
+        "reviewer": "Oliver Brooks",
+        "comment": "Great doctor, explained everything clearly about my condition.",
+        "rating": 5
       }
     ],
-    "price": "200",
-    "start_time": "8:30 AM",
+    "price": "70",
+    "start_time": "10:00 AM",
     "end_time": "6:00 PM",
-    "available_days": "Monday - Wednesday - Friday",
+    "available_days": "Monday - Friday",
     "photo": "/images/doctor_3.jpg"
   },
   {
     "id": 4,
-    "name": "Dr. Emily Davis",
-    "category": "Pediatrics",
-    "rating": "4.6",
-    "overview": "Caring pediatrician with a focus on children's health and development.",
-    "location": "Star City Children's Hospital",
-    "reviews_num": "19",
-    "patients_seen": "33",
+    "name": "Dr. Sophia Lee",
+    "category": "Radiology",
+    "rating": "5.0",
+    "overview": "Expert in diagnostic imaging, specializing in MRI, CT scans, and ultrasound diagnostics.",
+    "location": "Advanced Imaging Clinic",
+    "reviews_num": "9",
+    "patients_seen": "63",
     "reviews": [
       {
-        "reviewer": "Nicole Reese",
-        "comment": "Dr. Emily is great with kids. My son loves visiting her!",
+        "reviewer": "Tommy Green",
+        "comment": "Dr. Lee's imaging skills helped diagnose my condition early.",
         "rating": 5
       },
       {
-        "reviewer": "James Collins",
-        "comment": "She is good, but I expected more personalized attention.",
+        "reviewer": "Megan Ross",
+        "comment": "She explained my imaging results clearly and thoroughly.",
         "rating": 4
       }
     ],
-    "price": "90",
-    "start_time": "9:00 AM",
+    "price": "130",
+    "start_time": "7:00 AM",
     "end_time": "3:00 PM",
-    "available_days": "Monday - Tuesday - Thursday",
+    "available_days": "Monday - Thursday",
     "photo": "/images/doctor_4.jpg"
   },
   {
     "id": 5,
-    "name": "Dr. Chris Brown",
-    "category": "Internal Medicine",
-    "rating": "4.9",
-    "overview": "Expert in musculoskeletal issues, focusing on bones and joints.",
-    "location": "Riverdale Orthopedic Clinic",
-    "reviews_num": "800",
-    "patients_seen": "1300",
+    "name": "Dr. Linda Green",
+    "category": "Endocrinology",
+    "rating": "4.8",
+    "overview": "Specializes in hormone-related conditions like diabetes and thyroid disorders.",
+    "location": "Endocrine Health Clinic",
+    "reviews_num": "12",
+    "patients_seen": "92",
     "reviews": [
       {
-        "reviewer": "Sarah Johnson",
-        "comment": "Dr. Chris helped me recover from a knee injury with minimal pain.",
+        "reviewer": "Susan Clark",
+        "comment": "Dr. Green was instrumental in managing my diabetes. She's amazing.",
         "rating": 5
       },
       {
-        "reviewer": "Mike Watson",
-        "comment": "Excellent doctor, but the costs are a bit high.",
-        "rating": 4.5
+        "reviewer": "Rita Williams",
+        "comment": "She was helpful but could improve her response time.",
+        "rating": 4
       }
     ],
-    "price": "180",
-    "start_time": "10:00 AM",
-    "end_time": "6:00 PM",
-    "available_days": "Monday - Wednesday - Friday - Saturday",
+    "price": "110",
+    "start_time": "9:30 AM",
+    "end_time": "4:30 PM",
+    "available_days": "Monday - Wednesday - Friday",
     "photo": "/images/doctor_5.jpg"
   },
   {
     "id": 6,
-    "name": "Dr. Sara Wilson",
-    "category": "Physiotherapist",
-    "rating": "4.4",
-    "overview": "Skilled gastroenterologist specializing in digestive disorders.",
-    "location": "Hill Valley Digestive Center",
-    "reviews_num": "360",
-    "patients_seen": "502",
+    "name": "Dr. David Martin",
+    "category": "Pulmonology",
+    "rating": "4.3",
+    "overview": "Specializes in respiratory diseases, including asthma and lung diseases.",
+    "location": "Pulmonology Clinic",
+    "reviews_num": "7",
+    "patients_seen": "45",
     "reviews": [
       {
-        "reviewer": "Greg Miles",
-        "comment": "Dr. Sara helped with my digestive issues. I feel so much better!",
-        "rating": 4.5
+        "reviewer": "John Scott",
+        "comment": "Dr. Martin is a compassionate doctor who helped me breathe easier.",
+        "rating": 5
       },
       {
-        "reviewer": "Emily Norton",
-        "comment": "Great doctor, very attentive, and explained everything well.",
+        "reviewer": "Sophia Davis",
+        "comment": "Great treatment, but the clinic could be more organized.",
+        "rating": 4
+      }
+    ],
+    "price": "90",
+    "start_time": "8:00 AM",
+    "end_time": "5:00 PM",
+    "available_days": "Tuesday - Thursday",
+    "photo": "/images/doctor_6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Dr. Liam Miller",
+    "category": "Rheumatology",
+    "rating": "3.9",
+    "overview": "Experienced in managing arthritis, autoimmune diseases, and joint conditions.",
+    "location": "Joint Health Center",
+    "reviews_num": "10",
+    "patients_seen": "72",
+    "reviews": [
+      {
+        "reviewer": "Charlie Young",
+        "comment": "Dr. Miller’s care has made a big difference in my quality of life.",
         "rating": 5
+      },
+      {
+        "reviewer": "Fiona Stewart",
+        "comment": "He is very empathetic, but the wait was longer than expected.",
+        "rating": 4
+      }
+    ],
+    "price": "130",
+    "start_time": "9:00 AM",
+    "end_time": "3:00 PM",
+    "available_days": "Monday - Wednesday - Friday",
+    "photo": "/images/doctor_7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Dr. Emma Walker",
+    "category": "Nephrology",
+    "rating": "4.0",
+    "overview": "Specializes in kidney disorders and provides advanced nephrology care.",
+    "location": "Kidney Health Institute",
+    "reviews_num": "8",
+    "patients_seen": "40",
+    "reviews": [
+      {
+        "reviewer": "Isabella Brown",
+        "comment": "Dr. Walker helped me manage my kidney condition effectively.",
+        "rating": 5
+      },
+      {
+        "reviewer": "Liam Taylor",
+        "comment": "Great doctor, but could improve on follow-up.",
+        "rating": 4
+      }
+    ],
+    "price": "200",
+    "start_time": "10:00 AM",
+    "end_time": "5:00 PM",
+    "available_days": "Tuesday - Thursday",
+    "photo": "/images/doctor_8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Dr. Rachel Harris",
+    "category": "Gastroenterology",
+    "rating": "4.6",
+    "overview": "Specialist in digestive health, from IBS to liver diseases.",
+    "location": "Gastro Care Center",
+    "reviews_num": "16",
+    "patients_seen": "120",
+    "reviews": [
+      {
+        "reviewer": "Ethan Nelson",
+        "comment": "Dr. Harris was very thorough and helped with my digestive issues.",
+        "rating": 5
+      },
+      {
+        "reviewer": "Chloe Adams",
+        "comment": "Great care, but the wait time was long.",
+        "rating": 4
+      }
+    ],
+    "price": "130",
+    "start_time": "9:00 AM",
+    "end_time": "5:00 PM",
+    "available_days": "Monday - Thursday",
+    "photo": "/images/doctor_9.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Dr. Christopher King",
+    "category": "Orthopedics",
+    "rating": "4.9",
+    "overview": "Expert in bone, joint, and musculoskeletal care, with a focus on sports injuries.",
+    "location": "Orthopedic Health Clinic",
+    "reviews_num": "20",
+    "patients_seen": "150",
+    "reviews": [
+      {
+        "reviewer": "Victoria Moore",
+        "comment": "Dr. King helped me recover from my knee surgery with minimal pain.",
+        "rating": 5
+      },
+      {
+        "reviewer": "Samuel Carter",
+        "comment": "Professional care, but the office was a bit crowded.",
+        "rating": 4
+      }
+    ],
+    "price": "180",
+    "start_time": "8:30 AM",
+    "end_time": "4:30 PM",
+    "available_days": "Tuesday - Thursday",
+    "photo": "/images/doctor_10.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Dr. Olivia White",
+    "category": "Obstetrics & Gynecology",
+    "rating": "4.7",
+    "overview": "Comprehensive care for women's health, specializing in prenatal and postnatal care.",
+    "location": "Women's Health Center",
+    "reviews_num": "18",
+    "patients_seen": "112",
+    "reviews": [
+      {
+        "reviewer": "Ava Lewis",
+        "comment": "Dr. White was very supportive during my pregnancy. Highly recommend!",
+        "rating": 5
+      },
+      {
+        "reviewer": "Mason Hall",
+        "comment": "She is very knowledgeable, but the office could be more responsive.",
+        "rating": 4
+      }
+    ],
+    "price": "200",
+    "start_time": "9:00 AM",
+    "end_time": "4:00 PM",
+    "available_days": "Monday - Wednesday - Friday",
+    "photo": "/images/doctor_11.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Dr. Daniel Taylor",
+    "category": "Urology",
+    "rating": "4.4",
+    "overview": "Experienced urologist specializing in urinary and reproductive health.",
+    "location": "Urology Health Clinic",
+    "reviews_num": "10",
+    "patients_seen": "75",
+    "reviews": [
+      {
+        "reviewer": "Sophia Martinez",
+        "comment": "Dr. Taylor is a great urologist. Very respectful and thorough.",
+        "rating": 5
+      },
+      {
+        "reviewer": "Benjamin Lee",
+        "comment": "Good treatment, but the wait was a bit longer than expected.",
+        "rating": 4
+      }
+    ],
+    "price": "120",
+    "start_time": "8:00 AM",
+    "end_time": "4:00 PM",
+    "available_days": "Tuesday - Thursday",
+    "photo": "/images/doctor_12.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Dr. Mia Roberts",
+    "category": "Hematology",
+    "rating": "4.8",
+    "overview": "Specializes in blood disorders, including anemia, clotting issues, and cancers of the blood.",
+    "location": "Blood Health Clinic",
+    "reviews_num": "13",
+    "patients_seen": "80",
+    "reviews": [
+      {
+        "reviewer": "Lily Evans",
+        "comment": "Dr. Roberts helped manage my condition and provided excellent care.",
+        "rating": 5
+      },
+      {
+        "reviewer": "Ella Cooper",
+        "comment": "She was knowledgeable, but the clinic's scheduling system could improve.",
+        "rating": 4
       }
     ],
     "price": "160",
+    "start_time": "9:00 AM",
+    "end_time": "5:00 PM",
+    "available_days": "Monday - Wednesday - Friday",
+    "photo": "/images/doctor_13.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Dr. Benjamin Scott",
+    "category": "Infectious Disease",
+    "rating": "4.5",
+    "overview": "Expert in diagnosing and treating various infectious diseases.",
+    "location": "Infectious Disease Clinic",
+    "reviews_num": "9",
+    "patients_seen": "65",
+    "reviews": [
+      {
+        "reviewer": "Zoe Morgan",
+        "comment": "Dr. Scott was able to quickly diagnose my infection and treat it effectively.",
+        "rating": 5
+      },
+      {
+        "reviewer": "Jack Thomas",
+        "comment": "The treatment worked, but there was some miscommunication about follow-up.",
+        "rating": 4
+      }
+    ],
+    "price": "140",
     "start_time": "8:00 AM",
-    "end_time": "4:00 PM",
-    "available_days": "Monday - Tuesday - Thursday",
-    "photo": "/images/doctor_6.jpg"
+    "end_time": "4:30 PM",
+    "available_days": "Tuesday - Thursday",
+    "photo": "/images/doctor_14.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Dr. Ava Thompson",
+    "category": "Pediatrics",
+    "rating": "4.8",
+    "overview": "Passionate pediatrician focused on child development and preventative care.",
+    "location": "Childrens' Health Clinic",
+    "reviews_num": "22",
+    "patients_seen": "150",
+    "reviews": [
+      {
+        "reviewer": "Sophia Richardson",
+        "comment": "Dr. Thompson is so great with kids! My daughter loves her.",
+        "rating": 5
+      },
+      {
+        "reviewer": "Noah Clark",
+        "comment": "Wonderful care, though sometimes it takes a while to get an appointment.",
+        "rating": 4
+      }
+    ],
+    "price": "95",
+    "start_time": "9:00 AM",
+    "end_time": "3:00 PM",
+    "available_days": "Monday - Wednesday - Friday",
+    "photo": "/images/doctor_15.jpg"
   }
 ]
