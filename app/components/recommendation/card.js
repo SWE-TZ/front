@@ -41,6 +41,7 @@ const Card = memo(({ employee }) => {
           width={100}
           height={100}
           className="rounded-full h-[170px] w-[170px]  mt-[20px] border-2 border-dark"
+          alt="image"
         />
         <button
           onClick={openModal}

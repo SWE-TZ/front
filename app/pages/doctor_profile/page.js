@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import img from "@/public/images/doctor_1.jpg";
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/navigation"; // Import router for navigation
 
@@ -25,7 +26,7 @@ const DoctorProfile = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-4">
             <Image
-              src="/images/doctor_1.jpg"
+              src={user?.photo || img}
               alt="Doctor"
               width={80}
               height={80}

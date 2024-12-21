@@ -24,7 +24,7 @@ const UserProfile = () => {
                 <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-4">
                         <Image
-                            src="/images/user.png"
+                            src={user ? `${user.photo}` : "/images/doctor_3.jpg"}
                             alt="User"
                             width={80}
                             height={80}

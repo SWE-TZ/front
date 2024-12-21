@@ -92,7 +92,7 @@
     "price": 70,
     "type": "doctor",
     "specialization": "Neurology",
-    "photo": "/images/doctor3.jpg",
+    "photo": "/images/doctor_3.jpg",
     "about": "Dr. Mark Johnson is a leading neurologist with expertise in treating brain and nervous system disorders.",
     "rating":3.7
     ,"skills": ["EEG analysis", "Stroke management", "Neurodegenerative disorders"],

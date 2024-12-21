@@ -21,7 +21,7 @@ const Modal = ({ isOpen, onClose, employee}) => {
       <div className="bg-light text-dark p-6 rounded-lg shadow-lg">
             <div className='grid grid-cols-2 w-[540px] h-[600px] rounded-xl mb-[50px] container mx-auto max-w-screen-sm overflow-y-auto overflow-x-hidden scrollbar scrollbar-thumb-gray-500 srcollbar-track-gray-500 scrollbar-thin'>
                 <div className="col-start-1 ml-[20px] mb-[15px]">
-                    <Image src={employee?.photo || img} width={100} height={100} className="rounded-full h-[70px] w-[70px]  mt-[20px] border-2 border-dark" />
+                    <Image src={employee?.photo || img} width={100} height={100} className="rounded-full h-[70px] w-[70px]  mt-[20px] border-2 border-dark" alt="image"/>
                     <button className="rounded-full bg-light hover:bg-dark border-2 border-dark hover:boder-light font-semibold text-dark hover:text-light jutify-center items-center w-[170px] h-[30px] mt-[20px]" onClick={()=>router.push(`../step4/${employee.category}?employee=${serializedObject}`)}>ADD APPOINTMENT</button>
                 </div>
 
