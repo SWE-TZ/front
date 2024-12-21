@@ -3,6 +3,8 @@ import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
 import Link from "next/link";
 import Card from "@/app/components/recommendation/card";
 import { useState, useEffect, useCallback, useMemo } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import Modal from "@/app/components/recommendation/modal";
 import Header from "@/app/components/recommendation/header";
 
@@ -24,6 +26,22 @@ export default function Recommendations() {
 
   //--------------------- /cards fetching --------------------//
 
+  //--------------------- Search function---------------------//
+//search function
+
+const [search, Setsearch] = useState('');
+useEffect(() => {
+
+    const searchQuerry = employees.filter(employee => {
+        return (
+            employee.name.toLowerCase().includes(search.toLowerCase()) ||
+            employee.category.toLowerCase().includes(search.toLowerCase())
+        )
+    })
+
+    SetFilteredemployees(searchQuerry);
+}, [search])
+
   //--------------------- Cards filter -----------------------//
 
   const [filters, setFilters] = useState({
@@ -35,6 +53,7 @@ export default function Recommendations() {
     fri: false,
     time: false,
     price_range: false,
+    search: false
   });
 
   const [isclicked, SetIsClicked] = useState(false);
@@ -185,8 +204,14 @@ export default function Recommendations() {
   return (
     <div className="bg-light ">
       <Header />
-      <div className="container max-w-screen-xl mx-auto flex grid grid-col-3 gap-4 pt-[50px] bg-[#FBE4CC]">
+      <div className="container max-w-screen-xl mx-auto flex grid grid-col-3 gap-4 pt-[50px] bg-light">
         <div className=" justify-center flex ">
+            <div className="order-1 ml-[470px] justify-center self-center">
+                <form className="flex  bg-light rounded-full w-[300px] h-[30px] border-2 border-dark">
+                    <FontAwesomeIcon icon={faMagnifyingGlass} className="relative w-[20px] h-[27px] right-[-8px] text-dark bg-light rounded-full " />
+                    <input className="relative right-[-20px] bg-light rounded-lg  placeholder:italic focus:outline-none  w-[230px] h-[27px]  text-black" placeholder="Search..." onChange={(e) => Setsearch(e.target.value)}></input>
+                </form>
+            </div>
           <Menu>
             <MenuButton className="inline-flex gap-2 w-[150px] rounded-full hover:bg-dark py-1.5 px-3 text-sm/6 font-semibold text-dark border-2 hover:border-light hover:text-light border-dark shadow-2xl">
               <span className="justify-self-center w-[150px]">FILTER BY</span>
@@ -543,13 +568,13 @@ export default function Recommendations() {
             className={`px-4 py-2 rounded-l-lg ${
               currentPage === 1
                 ? "bg-gray-300 text-gray-500 cursor-not-allowed"
-                : "bg-[#1B262C] text-[#FBE4CC] hover:bg-[#F9D5B5] transition duration-300"
+                : "bg-dark text-light hover:bg-light transition duration-300"
             }`}
           >
             Previous
           </button>
 
-          <span className="mx-4 p-2 text-lg font-semibold border border-[#1B262C] rounded-md text-[#1B262C]">
+          <span className="mx-4 p-2 text-lg font-semibold border border-dark rounded-md text-dark">
             {`Page ${currentPage} of ${totalPages}`}
           </span>
 
@@ -561,7 +586,7 @@ export default function Recommendations() {
             className={`px-4 py-2 rounded-r-lg ${
               currentPage === totalPages
                 ? "bg-gray-300 text-gray-500 cursor-not-allowed"
-                : "bg-[#1B262C] text-[#FBE4CC] hover:bg-[#F9D5B5] transition duration-300"
+                : "bg-dark text-light hover:bg-light transition duration-300"
             }`}
           >
             Next

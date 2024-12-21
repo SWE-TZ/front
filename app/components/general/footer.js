@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import logo2 from "@/public/images/footer-logo.png";
+import logo2 from "@/public/images/logo.png";
 import {
   faFacebook,
   faTwitter,
@@ -11,7 +11,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Footer() {
   return (
-    <div className="bg-[#1B262C] text-[#FBE4CC] py-12">
+    <div className="bg-dark text-light py-12">
       <div className="container max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 px-4">
         {/* Logo Section */}
         <div className="flex items-center justify-center md:justify-start">
@@ -24,32 +24,24 @@ export default function Footer() {
             <p className="font-semibold text-lg">Quick Links</p>
             <ul className="flex flex-col gap-4 font-semibold">
               <li>
-                <Link href="/" className="hover:text-[#FBE4CC] hover:underline">
+                <Link href="/" className="hover:text-light hover:underline">
                   Home
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/pages/service"
-                  className="hover:text-[#FBE4CC] hover:underline"
-                >
-                  Services
-                </Link>
-              </li>
-              <li>
-                <Link
+              <Link
                   href="/pages/recommendations"
                   className="hover:text-[#FBE4CC] hover:underline"
                 >
-                  Recommendations
+                  Doctors
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/pages/pricing"
-                  className="hover:text-[#FBE4CC] hover:underline"
+                  href="#"
+                  className="hover:text-light hover:underline"
                 >
-                  Pricing
+                  Privacy Policy
                 </Link>
               </li>
             </ul>
@@ -60,24 +52,19 @@ export default function Footer() {
               <li>
                 <Link
                   href="/pages/contactUs"
-                  className="hover:text-[#FBE4CC] hover:underline"
+                  className="hover:text-light hover:underline"
                 >
                   Contact
                 </Link>
               </li>
               <li>
-                <Link href="/" className="hover:text-[#FBE4CC] hover:underline">
+                <Link href="#" className="hover:text-light hover:underline">
                   FAQ
                 </Link>
               </li>
               <li>
-                <Link href="/" className="hover:text-[#FBE4CC] hover:underline">
+                <Link href="#" className="hover:text-light hover:underline">
                   Terms of Service
-                </Link>
-              </li>
-              <li>
-                <Link href="/" className="hover:text-[#FBE4CC] hover:underline">
-                  Privacy Policy
                 </Link>
               </li>
             </ul>
@@ -89,8 +76,8 @@ export default function Footer() {
           <p className="font-semibold text-lg">Contact Us</p>
           <p>
             Email:{" "}
-            <a href="FixitCompany@gmail.com" className="hover:underline">
-              FixitCompany@gmail.com
+            <a href="DoctorConect@gmail.com" className="hover:underline">
+              DoctorConnect@gmail.com
             </a>
           </p>
           <p>
@@ -107,29 +94,29 @@ export default function Footer() {
       <div className="container max-w-screen-lg mx-auto py-6 flex justify-center gap-6">
         <FontAwesomeIcon
           fixedWidth
-          className="h-[50px] w-[50px] text-[#FBE4CC] border-2 border-[#FBE4CC] rounded-full p-[12px] hover:text-[#1B262C] hover:bg-[#FBE4CC] hover:border-[#1B262C] transition-all"
+          className="h-[50px] w-[50px] text-light border-2 border-light rounded-full p-[12px] hover:text-dark hover:bg-light hover:border-dark transition-all"
           icon={faFacebook}
         />
         <FontAwesomeIcon
           fixedWidth
-          className="h-[50px] w-[50px] text-[#FBE4CC] border-2 border-[#FBE4CC] rounded-full p-[12px] hover:text-[#1B262C] hover:bg-[#FBE4CC] hover:border-[#1B262C] transition-all"
+          className="h-[50px] w-[50px] text-light border-2 border-light rounded-full p-[12px] hover:text-dark hover:bg-light hover:border-dark transition-all"
           icon={faTwitter}
         />
         <FontAwesomeIcon
           fixedWidth
-          className="h-[50px] w-[50px] text-[#FBE4CC] border-2 border-[#FBE4CC] rounded-full p-[12px] hover:text-[#1B262C] hover:bg-[#FBE4CC] hover:border-[#1B262C] transition-all"
+          className="h-[50px] w-[50px] text-light border-2 border-light rounded-full p-[12px] hover:text-dark hover:bg-light hover:border-dark transition-all"
           icon={faInstagram}
         />
         <FontAwesomeIcon
           fixedWidth
-          className="h-[50px] w-[50px] text-[#FBE4CC] border-2 border-[#FBE4CC] rounded-full p-[12px] hover:text-[#1B262C] hover:bg-[#FBE4CC] hover:border-[#1B262C] transition-all"
+          className="h-[50px] w-[50px] text-light border-2 border-light rounded-full p-[12px] hover:text-dark hover:bg-light hover:border-dark transition-all"
           icon={faLinkedinIn}
         />
       </div>
 
       {/* Bottom Text Section */}
-      <div className="container max-w-screen-xl mx-auto py-4 text-center text-[#FBE4CC] border-t border-[#FBE4CC] mt-12">
-        <p>&copy; {new Date().getFullYear()} FIXIT. All rights reserved.</p>
+      <div className="container max-w-screen-xl mx-auto py-4 text-center text-light border-t border-light mt-12">
+        <p>&copy; {new Date().getFullYear()} DoctorConnect. All rights reserved.</p>
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import img from "@/public/images/home-background.jpg";
+import img from "@/public/images/OIP.jpg";
 import Link from "next/link";
 import { useState, memo } from "react";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
@@ -48,16 +48,6 @@ const Card = memo(({ employee }) => {
         >
           VIEW PROFILE
         </button>
-        <button
-          className="rounded-full bg-light hover:bg-dark border-2 border-dark hover:boder-light font-semibold text-dark hover:text-light jutify-center items-center w-[170px] h-[30px] mt-[20px]"
-          onClick={() =>
-            router.push(
-              `../step4/${employee.category}?employee=${serializedObject}`
-            )
-          }
-        >
-          ASK FOR HELP
-        </button>
       </div>
 
       <div className="col-start-2 mt-[20px] ml-[-30px]">
@@ -69,7 +59,7 @@ const Card = memo(({ employee }) => {
           </div>
           <div className="col-start-2 ">
             <label className="text-dark font-bold text-[20px] ">
-              ${employee?.price || "price"}/hour
+              ${employee?.price || "price"}
             </label>
           </div>
         </div>
@@ -87,9 +77,6 @@ const Card = memo(({ employee }) => {
         <label className="text-dark font-semibold text-[20px] mb-[3px] block ">
           {employee?.category || "category"}
         </label>
-        <span className="mb-[20px] font-semibold block text-green-500">
-          {employee?.tasks_num || "tasks"} tasks done
-        </span>
 
         <div className="rounded-xl text-dark border-2 border-dark w-[260px] h-[170px] font-bold text-center text-ellipsis flex pt-[20px] overflow-hidden">
           {employee?.overview || "overview"}

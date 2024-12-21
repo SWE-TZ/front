@@ -1,1103 +1,164 @@
 [
   {
     "id": 1,
-    "name": "John Doe",
-    "category": "Plumbing",
+    "name": "Dr. John Doe",
+    "category": "Cardiology",
     "rating": "4.5",
-    "overview": "Experienced plumber with 10+ years in residential plumbing.",
-    "location": "Springfield",
+    "overview": "Experienced cardiologist with 10+ years in treating heart conditions.",
+    "location": "Springfield Medical Center",
     "reviews_num": "40",
-    "tasks_num": "120",
+    "patients_seen": "120",
     "reviews": [
       {
         "reviewer": "Alice Green",
-        "comment": "John fixed our leaking sink in no time. Very professional!",
+        "comment": "Dr. John is very knowledgeable and helped me with my heart condition.",
         "rating": 5
       },
       {
         "reviewer": "Bob White",
-        "comment": "Great work but arrived 20 minutes late.",
+        "comment": "Great consultation, but I had to wait a bit longer than expected.",
         "rating": 4
       }
     ],
-    "tasks_images": [],
-    "price": "50",
-    "start_time": "12",
-    "end_time": "5",
-    "available_days": "Monday - Tuesday - Friday - Saturday",
-    "photo": "/images/person1.jpg"
+    "price": "150",
+    "start_time": "8:00 AM",
+    "end_time": "4:00 PM",
+    "available_days": "Monday - Wednesday - Friday",
+    "photo": "/images/doctor_1.jpg"
   },
   {
     "id": 2,
-    "name": "Jane Smith",
-    "category": "Painting",
+    "name": "Dr. Jane Smith",
+    "category": "Gynecologist",
     "rating": "4.8",
-    "overview": "Professional painter specializing in interior and exterior painting.",
-    "location": "Metropolis",
+    "overview": "Specialist in treating skin conditions and cosmetic dermatology.",
+    "location": "Metropolis Skin Clinic",
     "reviews_num": "300",
-    "tasks_num": "470",
+    "patients_seen": "470",
     "reviews": [
       {
         "reviewer": "Linda Blake",
-        "comment": "Jane’s work is phenomenal. My living room looks brand new!",
+        "comment": "Dr. Jane's treatment transformed my skin. Highly recommended!",
         "rating": 5
       },
       {
         "reviewer": "Tom Carter",
-        "comment": "Finished ahead of schedule and very neat.",
+        "comment": "Very thorough and quick. Results were excellent.",
         "rating": 5
       }
     ],
-    "tasks_images": [],
-    "price": "40",
-    "start_time": "8",
-    "end_time": "4",
-    "available_days": "Monday - Tuesday",
-    "photo": "/images/person2.jpg"
+    "price": "120",
+    "start_time": "9:00 AM",
+    "end_time": "5:00 PM",
+    "available_days": "Tuesday - Thursday",
+    "photo": "/images/doctor_2.jpg"
   },
   {
     "id": 3,
-    "name": "Mark Johnson",
-    "category": "Electrical",
+    "name": "Dr. Mark Johnson",
+    "category": "Neurology",
     "rating": "4.7",
-    "overview": "Licensed electrician with experience in residential and commercial projects.",
-    "location": "Gotham",
+    "overview": "Experienced neurologist specializing in disorders of the nervous system.",
+    "location": "Gotham Neuroscience Center",
     "reviews_num": "700",
-    "tasks_num": "1019",
+    "patients_seen": "1019",
     "reviews": [
       {
         "reviewer": "Steve Rodgers",
-        "comment": "Mark rewired my entire house. Exceptional service!",
+        "comment": "Dr. Mark diagnosed my condition accurately. I feel much better now.",
         "rating": 5
       },
       {
         "reviewer": "Clara Summers",
-        "comment": "Efficient but a little expensive for the job.",
+        "comment": "Good doctor, but a bit expensive for the consultation.",
         "rating": 4
       }
     ],
-    "tasks_images": [],
-    "price": "60",
-    "start_time": "9",
-    "end_time": "6",
-    "available_days": "Monday - Thursday - Saturday",
-    "photo": "/images/person3.jpg"
+    "price": "200",
+    "start_time": "8:30 AM",
+    "end_time": "6:00 PM",
+    "available_days": "Monday - Wednesday - Friday",
+    "photo": "/images/doctor_3.jpg"
   },
   {
     "id": 4,
-    "name": "Emily Davis",
-    "category": "Cleaning",
+    "name": "Dr. Emily Davis",
+    "category": "Pediatrics",
     "rating": "4.6",
-    "overview": "Reliable house cleaner with attention to detail.",
-    "location": "Star City",
+    "overview": "Caring pediatrician with a focus on children's health and development.",
+    "location": "Star City Children's Hospital",
     "reviews_num": "19",
-    "tasks_num": "33",
+    "patients_seen": "33",
     "reviews": [
       {
         "reviewer": "Nicole Reese",
-        "comment": "Emily is thorough and leaves everything spotless. Highly recommend!",
+        "comment": "Dr. Emily is great with kids. My son loves visiting her!",
         "rating": 5
       },
       {
         "reviewer": "James Collins",
-        "comment": "Good service, but could focus a little more on the smaller details.",
+        "comment": "She is good, but I expected more personalized attention.",
         "rating": 4
       }
     ],
-    "tasks_images": [],
-    "price": "30",
-    "start_time": "11",
-    "end_time": "5",
-    "available_days": "Tuesday - Friday - Sunday",
-    "photo": "/images/person4.jpg"
+    "price": "90",
+    "start_time": "9:00 AM",
+    "end_time": "3:00 PM",
+    "available_days": "Monday - Tuesday - Thursday",
+    "photo": "/images/doctor_4.jpg"
   },
   {
     "id": 5,
-    "name": "Chris Brown",
-    "category": "Moving",
+    "name": "Dr. Chris Brown",
+    "category": "Internal Medicine",
     "rating": "4.9",
-    "overview": "Expert in house moving with a focus on efficiency.",
-    "location": "Riverdale",
+    "overview": "Expert in musculoskeletal issues, focusing on bones and joints.",
+    "location": "Riverdale Orthopedic Clinic",
     "reviews_num": "800",
-    "tasks_num": "1300",
+    "patients_seen": "1300",
     "reviews": [
       {
         "reviewer": "Sarah Johnson",
-        "comment": "Chris made my move stress-free. Everything arrived safely.",
+        "comment": "Dr. Chris helped me recover from a knee injury with minimal pain.",
         "rating": 5
       },
       {
         "reviewer": "Mike Watson",
-        "comment": "Excellent service but a bit pricey.",
+        "comment": "Excellent doctor, but the costs are a bit high.",
         "rating": 4.5
       }
     ],
-    "tasks_images": [],
-    "price": "70",
-    "start_time": "12",
-    "end_time": "8",
+    "price": "180",
+    "start_time": "10:00 AM",
+    "end_time": "6:00 PM",
     "available_days": "Monday - Wednesday - Friday - Saturday",
-    "photo": "/images/person5.jpg"
+    "photo": "/images/doctor_5.jpg"
   },
   {
     "id": 6,
-    "name": "Sara Wilson",
-    "category": "Plumbing",
+    "name": "Dr. Sara Wilson",
+    "category": "Physiotherapist",
     "rating": "4.4",
-    "overview": "Skilled plumber with a focus on quick repairs.",
-    "location": "Hill Valley",
+    "overview": "Skilled gastroenterologist specializing in digestive disorders.",
+    "location": "Hill Valley Digestive Center",
     "reviews_num": "360",
-    "tasks_num": "502",
+    "patients_seen": "502",
     "reviews": [
       {
         "reviewer": "Greg Miles",
-        "comment": "Sara fixed our water heater quickly. Great work!",
+        "comment": "Dr. Sara helped with my digestive issues. I feel so much better!",
         "rating": 4.5
       },
       {
         "reviewer": "Emily Norton",
-        "comment": "Reliable and professional. Will hire again.",
+        "comment": "Great doctor, very attentive, and explained everything well.",
         "rating": 5
       }
     ],
-    "tasks_images": [],
-    "price": "55",
-    "start_time": "8",
-    "end_time": "4",
-    "available_days": "Tuesday - Thursday - Sunday",
-    "photo": "/images/person6.jpg"
-  },
-  {
-    "id": 7,
-    "name": "David Martinez",
-    "category": "Painting",
-    "rating": "4.7",
-    "overview": "Creative painter with a passion for vibrant colors.",
-    "location": "Sunnydale",
-    "reviews_num": "212",
-    "tasks_num": "290",
-    "reviews": [
-      {
-        "reviewer": "Jack Edwards",
-        "comment": "David’s attention to color and detail is unmatched. My house looks amazing!",
-        "rating": 5
-      },
-      {
-        "reviewer": "Paula Stevens",
-        "comment": "Quick and efficient painter with an eye for detail.",
-        "rating": 5
-      }
-    ],
-    "tasks_images": [],
-    "price": "45",
-    "start_time": "9",
-    "end_time": "5",
-    "available_days": "Monday - Friday",
-    "photo": "/images/person7.jpg"
-  },
-  {
-    "id": 8,
-    "name": "Laura Anderson",
-    "category": "Electrical",
-    "rating": "4.6",
-    "overview": "Experienced electrician with excellent customer reviews.",
-    "location": "Gotham",
-    "reviews_num": "99",
-    "tasks_num": "200",
-    "reviews": [
-      {
-        "reviewer": "Frank Donovan",
-        "comment": "Laura solved my electrical issue quickly and efficiently. Very satisfied.",
-        "rating": 5
-      },
-      {
-        "reviewer": "Helen Baker",
-        "comment": "Professional service, but the rates were a little higher than expected.",
-        "rating": 4
-      }
-    ],
-    "tasks_images": [],
-    "price": "65",
-    "start_time": "11",
-    "end_time": "6",
-    "available_days": "Wednesday - Saturday",
-    "photo": "/images/person8.jpg"
-  },
-  {
-    "id": 9,
-    "name": "Michael Thomas",
-    "category": "Cleaning",
-    "rating": "4.5",
-    "overview": "Dependable house cleaner with eco-friendly products.",
-    "location": "Metropolis",
-    "reviews_num": "8",
-    "tasks_num": "15",
-    "reviews": [
-      {
-        "reviewer": "Lucy Harrison",
-        "comment": "Michael left my home spotless, using eco-friendly cleaning products. Highly recommend!",
-        "rating": 5
-      },
-      {
-        "reviewer": "Peter Roberts",
-        "comment": "A little late but overall great cleaning service.",
-        "rating": 4
-      }
-    ],
-    "tasks_images": [],
-    "price": "35",
-    "start_time": "9",
-    "end_time": "4",
-    "available_days": "Tuesday - Thursday",
-    "photo": "/images/person9.jpg"
-  },
-  {
-    "id": 10,
-    "name": "Olivia Lee",
-    "category": "Moving",
-    "rating": "4.8",
-    "overview": "Professional house mover with a strong track record.",
-    "location": "Star City",
-    "reviews_num": "163",
-    "tasks_num": "194",
-    "reviews": [
-      {
-        "reviewer": "Nina Wilson",
-        "comment": "Olivia was a lifesaver during our move. Everything was packed and transported perfectly.",
-        "rating": 5
-      },
-      {
-        "reviewer": "Alex Turner",
-        "comment": "Fast and reliable moving service. Will definitely use again.",
-        "rating": 5
-      }
-    ],
-    "tasks_images": [],
-    "price": "75",
-    "start_time": "11",
-    "end_time": "8",
-    "available_days": "Monday - Sunday",
-    "photo": "/images/person10.jpg"
-  },
-  {
-    "id": 11,
-    "name": "Kevin Brown",
-    "category": "Plumbing",
-    "rating": "4.6",
-    "overview": "Expert plumber specializing in emergency repairs.",
-    "location": "Smallville",
-    "reviews_num": "215",
-    "tasks_num": "320",
-    "reviews": [
-      {
-        "reviewer": "Samantha Perry",
-        "comment": "Kevin arrived promptly and fixed our pipes in no time.",
-        "rating": 5
-      },
-      {
-        "reviewer": "George Smith",
-        "comment": "Very skilled but could be a little more punctual.",
-        "rating": 4
-      }
-    ],
-    "tasks_images": [],
-    "price": "50",
-    "start_time": "10",
-    "end_time": "6",
-    "available_days": "Monday - Thursday - Sunday",
-    "photo": "/images/person11.jpg"
-  },
-  {
-    "id": 12,
-    "name": "Natalie King",
-    "category": "Painting",
-    "rating": "4.9",
-    "overview": "Creative painter with a focus on modern interior designs.",
-    "location": "Metropolis",
-    "reviews_num": "198",
-    "tasks_num": "305",
-    "reviews": [
-      {
-        "reviewer": "Anna Bell",
-        "comment": "Natalie transformed my living space into a modern masterpiece!",
-        "rating": 5
-      },
-      {
-        "reviewer": "Michael Frost",
-        "comment": "A bit expensive, but the quality of work was worth it.",
-        "rating": 4.5
-      }
-    ],
-    "tasks_images": [],
-    "price": "55",
-    "start_time": "9",
-    "end_time": "4",
-    "available_days": "Monday - Wednesday - Friday",
-    "photo": "/images/person12.jpg"
-  },
-  {
-    "id": 13,
-    "name": "William Scott",
-    "category": "Electrical",
-    "rating": "4.8",
-    "overview": "Licensed electrician with expertise in both commercial and residential projects.",
-    "location": "Star City",
-    "reviews_num": "500",
-    "tasks_num": "650",
-    "reviews": [
-      {
-        "reviewer": "James Ford",
-        "comment": "William fixed all our electrical issues efficiently and quickly.",
-        "rating": 5
-      },
-      {
-        "reviewer": "Rebecca Hill",
-        "comment": "Great service, though a bit pricey for smaller tasks.",
-        "rating": 4.5
-      }
-    ],
-    "tasks_images": [],
-    "price": "60",
-    "start_time": "7",
-    "end_time": "3",
-    "available_days": "Tuesday - Thursday - Saturday",
-    "photo": "/images/person13.jpg"
-  },
-  {
-    "id": 14,
-    "name": "Amanda Roberts",
-    "category": "Cleaning",
-    "rating": "4.7",
-    "overview": "Reliable and detail-oriented house cleaner.",
-    "location": "Springfield",
-    "reviews_num": "27",
-    "tasks_num": "35",
-    "reviews": [
-      {
-        "reviewer": "Jessica Moore",
-        "comment": "Amanda did an excellent job. Every corner of the house was spotless!",
-        "rating": 5
-      },
-      {
-        "reviewer": "Paul Collins",
-        "comment": "Good service, though a bit slower than expected.",
-        "rating": 4
-      }
-    ],
-    "tasks_images": [],
-    "price": "35",
-    "start_time": "10",
-    "end_time": "4",
-    "available_days": "Wednesday - Friday",
-    "photo": "/images/person14.jpg"
-  },
-  {
-    "id": 15,
-    "name": "Thomas Miller",
-    "category": "Moving",
-    "rating": "4.5",
-    "overview": "Experienced house mover focused on quick and safe relocations.",
-    "location": "Hill Valley",
-    "reviews_num": "329",
-    "tasks_num": "400",
-    "reviews": [
-      {
-        "reviewer": "Clara James",
-        "comment": "Thomas helped us move across town. Everything went smoothly.",
-        "rating": 5
-      },
-      {
-        "reviewer": "Evan Harris",
-        "comment": "Good service, but some minor scratches on furniture.",
-        "rating": 4
-      }
-    ],
-    "tasks_images": [],
-    "price": "65",
-    "start_time": "8",
-    "end_time": "5",
+    "price": "160",
+    "start_time": "8:00 AM",
+    "end_time": "4:00 PM",
     "available_days": "Monday - Tuesday - Thursday",
-    "photo": "/images/person15.jpg"
-  },
-  {
-    "id": 16,
-    "name": "Sophia Martinez",
-    "category": "Plumbing",
-    "rating": "4.4",
-    "overview": "Skilled plumber with a focus on eco-friendly solutions.",
-    "location": "Riverdale",
-    "reviews_num": "78",
-    "tasks_num": "120",
-    "reviews": [
-      {
-        "reviewer": "Henry Wilson",
-        "comment": "Sophia installed water-saving fixtures throughout our home. Very happy with the results.",
-        "rating": 5
-      },
-      {
-        "reviewer": "Patricia Evans",
-        "comment": "Great work, though communication could be improved.",
-        "rating": 4
-      }
-    ],
-    "tasks_images": [],
-    "price": "52",
-    "start_time": "9",
-    "end_time": "4",
-    "available_days": "Monday - Friday",
-    "photo": "/images/person16.jpg"
-  },
-  {
-    "id": 17,
-    "name": "Brian Turner",
-    "category": "Painting",
-    "rating": "4.8",
-    "overview": "Expert painter with an eye for detail and finishing touches.",
-    "location": "Sunnydale",
-    "reviews_num": "320",
-    "tasks_num": "410",
-    "reviews": [
-      {
-        "reviewer": "Lisa Bennett",
-        "comment": "Brian did a fantastic job painting our house. Highly recommend!",
-        "rating": 5
-      },
-      {
-        "reviewer": "Charlie Young",
-        "comment": "Very professional, but the job took a little longer than expected.",
-        "rating": 4.5
-      }
-    ],
-    "tasks_images": [],
-    "price": "48",
-    "start_time": "8",
-    "end_time": "5",
-    "available_days": "Tuesday - Thursday - Saturday",
-    "photo": "/images/person17.jpg"
-  },
-  {
-    "id": 18,
-    "name": "Emily Baker",
-    "category": "Electrical",
-    "rating": "4.5",
-    "overview": "Experienced electrician with a specialty in modern electrical systems.",
-    "location": "Gotham",
-    "reviews_num": "254",
-    "tasks_num": "310",
-    "reviews": [
-      {
-        "reviewer": "Olivia Jenkins",
-        "comment": "Emily fixed all our electrical issues with ease and expertise.",
-        "rating": 5
-      },
-      {
-        "reviewer": "Nathan Lewis",
-        "comment": "Good work, though a bit more expensive than expected.",
-        "rating": 4
-      }
-    ],
-    "tasks_images": [],
-    "price": "58",
-    "start_time": "11",
-    "end_time": "7",
-    "available_days": "Monday - Wednesday - Saturday",
-    "photo": "/images/person18.jpg"
-  },
-  {
-    "id": 19,
-    "name": "Julia Wright",
-    "category": "Cleaning",
-    "rating": "4.9",
-    "overview": "Professional house cleaner with a reputation for thorough and reliable service.",
-    "location": "Star City",
-    "reviews_num": "60",
-    "tasks_num": "75",
-    "reviews": [
-      {
-        "reviewer": "Sophia Moore",
-        "comment": "Julia left my house cleaner than it's ever been! Highly recommend.",
-        "rating": 5
-      },
-      {
-        "reviewer": "Timothy Brooks",
-        "comment": "Great job, but arrived a little late.",
-        "rating": 4.5
-      }
-    ],
-    "tasks_images": [],
-    "price": "40",
-    "start_time": "8",
-    "end_time": "2",
-    "available_days": "Tuesday - Thursday",
-    "photo": "/images/person19.jpg"
-  },
-  {
-    "id": 20,
-    "name": "Jason Carter",
-    "category": "Moving",
-    "rating": "4.7",
-    "overview": "Expert mover with a focus on safety and efficiency.",
-    "location": "Springfield",
-    "reviews_num": "445",
-    "tasks_num": "590",
-    "reviews": [
-      {
-        "reviewer": "Chris Hill",
-        "comment": "Jason made our move across the country stress-free and smooth.",
-        "rating": 5
-      },
-      {
-        "reviewer": "Laura Adams",
-        "comment": "Great service, though it took a bit longer than expected.",
-        "rating": 4.5
-      }
-    ],
-    "tasks_images": [],
-    "price": "70",
-    "start_time": "9",
-    "end_time": "6",
-    "available_days": "Monday - Friday",
-    "photo": "/images/person20.jpg"
-  },
-  {
-    "id": 21,
-    "name": "Lily Morgan",
-    "category": "Beauty",
-    "rating": "4.7",
-    "overview": "Professional beautician with expertise in skincare and makeup.",
-    "location": "Metropolis",
-    "reviews_num": "320",
-    "tasks_num": "450",
-    "reviews": [
-      {
-        "reviewer": "Alice Jenkins",
-        "comment": "Lily did an amazing job with my makeup for a wedding!",
-        "rating": 5
-      },
-      {
-        "reviewer": "Sophie Lee",
-        "comment": "The facial I got from Lily was so refreshing!",
-        "rating": 4
-      }
-    ],
-    "price": "75",
-    "start_time": "10",
-    "end_time": "6",
-    "available_days": "Monday - Thursday - Saturday",
-    "photo": "/images/person21.jpg"
-  },
-  {
-    "id": 22,
-    "name": "Emma Turner",
-    "category": "Babysitting",
-    "rating": "4.9",
-    "overview": "Experienced babysitter with a focus on providing a safe and fun environment.",
-    "location": "Riverdale",
-    "reviews_num": "150",
-    "tasks_num": "250",
-    "reviews": [
-      {
-        "reviewer": "Megan Carter",
-        "comment": "Emma is wonderful with kids! My children adore her.",
-        "rating": 5
-      },
-      {
-        "reviewer": "James Parker",
-        "comment": "Reliable and responsible, Emma always takes great care of my kids.",
-        "rating": 5
-      }
-    ],
-    "price": "40",
-    "start_time": "8",
-    "end_time": "4",
-    "available_days": "Tuesday - Wednesday - Friday",
-    "photo": "/images/person22.jpg"
-  },
-  {
-    "id": 23,
-    "name": "Oliver Bennett",
-    "category": "Personal Teaching",
-    "rating": "4.8",
-    "overview": "Experienced tutor specializing in mathematics and science.",
-    "location": "Gotham",
-    "reviews_num": "210",
-    "tasks_num": "330",
-    "reviews": [
-      {
-        "reviewer": "Daniel Kim",
-        "comment": "Oliver helped my son excel in his math exams. Highly recommended!",
-        "rating": 5
-      },
-      {
-        "reviewer": "Rachel Williams",
-        "comment": "Great tutor who makes learning fun and engaging.",
-        "rating": 4
-      }
-    ],
-    "price": "60",
-    "start_time": "9",
-    "end_time": "5",
-    "available_days": "Monday - Thursday",
-    "photo": "/images/person23.jpg"
-  },
-  {
-    "id": 24,
-    "name": "Sophia Wright",
-    "category": "Appliance Repair",
-    "rating": "4.6",
-    "overview": "Expert in repairing household appliances, from refrigerators to washing machines.",
-    "location": "Star City",
-    "reviews_num": "140",
-    "tasks_num": "270",
-    "reviews": [
-      {
-        "reviewer": "Chris Evans",
-        "comment": "Sophia fixed my refrigerator in no time. Great service!",
-        "rating": 5
-      },
-      {
-        "reviewer": "Victoria Brown",
-        "comment": "Very knowledgeable and quick to diagnose the problem.",
-        "rating": 4
-      }
-    ],
-    "price": "65",
-    "start_time": "8",
-    "end_time": "6",
-    "available_days": "Monday - Wednesday - Friday",
-    "photo": "/images/person24.jpg"
-  },
-  {
-    "id": 25,
-    "name": "Amelia Scott",
-    "category": "Beauty",
-    "rating": "4.8",
-    "overview": "Beautician specializing in hairstyling and hair coloring.",
-    "location": "Central City",
-    "reviews_num": "200",
-    "tasks_num": "350",
-    "reviews": [
-      {
-        "reviewer": "Julia Adams",
-        "comment": "Amelia gave me the perfect haircut and color. Couldn't be happier!",
-        "rating": 5
-      },
-      {
-        "reviewer": "Sara Miller",
-        "comment": "Super friendly and talented. I love my new hairstyle!",
-        "rating": 5
-      }
-    ],
-    "price": "70",
-    "start_time": "9",
-    "end_time": "6",
-    "available_days": "Tuesday - Friday - Saturday",
-    "photo": "/images/person25.jpg"
-  },
-  {
-    "id": 26,
-    "name": "Ethan Roberts",
-    "category": "Babysitting",
-    "rating": "4.7",
-    "overview": "Trusted babysitter with years of experience caring for children of all ages.",
-    "location": "Hill Valley",
-    "reviews_num": "175",
-    "tasks_num": "290",
-    "reviews": [
-      {
-        "reviewer": "Tom Harris",
-        "comment": "Ethan is great with kids, my kids love spending time with him.",
-        "rating": 5
-      },
-      {
-        "reviewer": "Laura Green",
-        "comment": "Very dependable and always punctual.",
-        "rating": 5
-      }
-    ],
-    "price": "35",
-    "start_time": "10",
-    "end_time": "4",
-    "available_days": "Wednesday - Thursday - Saturday",
-    "photo": "/images/person26.jpg"
-  },
-  {
-    "id": 27,
-    "name": "Isabella Thompson",
-    "category": "Personal Teaching",
-    "rating": "4.9",
-    "overview": "English tutor with a passion for helping students improve their language skills.",
-    "location": "Metropolis",
-    "reviews_num": "240",
-    "tasks_num": "360",
-    "reviews": [
-      {
-        "reviewer": "Emily Davis",
-        "comment": "Isabella helped me boost my grades in English. Fantastic tutor!",
-        "rating": 5
-      },
-      {
-        "reviewer": "Michael White",
-        "comment": "Great teacher with a patient and encouraging approach.",
-        "rating": 5
-      }
-    ],
-    "price": "50",
-    "start_time": "9",
-    "end_time": "5",
-    "available_days": "Monday - Wednesday - Friday",
-    "photo": "/images/person27.jpg"
-  },
-  {
-    "id": 28,
-    "name": "James Foster",
-    "category": "Appliance Repair",
-    "rating": "4.7",
-    "overview": "Appliance repair specialist with a focus on washing machines and dishwashers.",
-    "location": "Sunnydale",
-    "reviews_num": "180",
-    "tasks_num": "300",
-    "reviews": [
-      {
-        "reviewer": "Steven King",
-        "comment": "James fixed my washing machine quickly. Great work!",
-        "rating": 5
-      },
-      {
-        "reviewer": "Hannah Young",
-        "comment": "Very professional and knew exactly what to do.",
-        "rating": 4
-      }
-    ],
-    "price": "60",
-    "start_time": "8",
-    "end_time": "5",
-    "available_days": "Monday - Tuesday - Thursday",
-    "photo": "/images/person28.jpg"
-  },
-  {
-    "id": 29,
-    "name": "Ava Mitchell",
-    "category": "Beauty",
-    "rating": "4.9",
-    "overview": "Specialist in bridal makeup and hairstyling.",
-    "location": "Gotham",
-    "reviews_num": "350",
-    "tasks_num": "500",
-    "reviews": [
-      {
-        "reviewer": "Molly Jones",
-        "comment": "Ava made my wedding day so special with her amazing makeup skills.",
-        "rating": 5
-      },
-      {
-        "reviewer": "Jessica Taylor",
-        "comment": "My hairstyle was perfect, couldn't have asked for more.",
-        "rating": 5
-      }
-    ],
-    "price": "85",
-    "start_time": "10",
-    "end_time": "7",
-    "available_days": "Tuesday - Thursday - Saturday",
-    "photo": "/images/person29.jpg"
-  },
-  {
-    "id": 30,
-    "name": "Liam Bell",
-    "category": "Babysitting",
-    "rating": "4.8",
-    "overview": "Babysitter known for his patience and care with young children.",
-    "location": "Star City",
-    "reviews_num": "120",
-    "tasks_num": "200",
-    "reviews": [
-      {
-        "reviewer": "John Evans",
-        "comment": "Liam is fantastic with my kids, always responsible and fun.",
-        "rating": 5
-      },
-      {
-        "reviewer": "Natalie Cook",
-        "comment": "My kids love spending time with him. Great babysitter!",
-        "rating": 5
-      }
-    ],
-    "price": "38",
-    "start_time": "9",
-    "end_time": "3",
-    "available_days": "Wednesday - Friday - Sunday",
-    "photo": "/images/person30.jpg"
-  },
-  {
-    "id": 31,
-    "name": "Ella Moore",
-    "category": "Personal Teaching",
-    "rating": "4.9",
-    "overview": "Language tutor with expertise in Spanish and French.",
-    "location": "Hill Valley",
-    "reviews_num": "220",
-    "tasks_num": "340",
-    "reviews": [
-      {
-        "reviewer": "Lily Nelson",
-        "comment": "Ella is a fantastic language tutor. I've improved so much in Spanish.",
-        "rating": 5
-      },
-      {
-        "reviewer": "Sophia Jackson",
-        "comment": "Great teacher, makes learning a new language fun!",
-        "rating": 5
-      }
-    ],
-    "price": "55",
-    "start_time": "10",
-    "end_time": "4",
-    "available_days": "Tuesday - Thursday",
-    "photo": "/images/person31.jpg"
-  },
-  {
-    "id": 32,
-    "name": "Jack Wilson",
-    "category": "Appliance Repair",
-    "rating": "4.8",
-    "overview": "Specialist in repairing air conditioners and heating systems.",
-    "location": "Metropolis",
-    "reviews_num": "200",
-    "tasks_num": "400",
-    "reviews": [
-      {
-        "reviewer": "Ryan Turner",
-        "comment": "Jack fixed our air conditioning quickly. Very professional.",
-        "rating": 5
-      },
-      {
-        "reviewer": "Emma Brown",
-        "comment": "Great service and fair pricing.",
-        "rating": 4
-      }
-    ],
-    "price": "70",
-    "start_time": "9",
-    "end_time": "5",
-    "available_days": "Monday - Thursday",
-    "photo": "/images/person32.jpg"
-  },
-  {
-    "id": 33,
-    "name": "Mia Harris",
-    "category": "Beauty",
-    "rating": "4.7",
-    "overview": "Beautician with a focus on manicures and pedicures.",
-    "location": "Gotham",
-    "reviews_num": "300",
-    "tasks_num": "480",
-    "reviews": [
-      {
-        "reviewer": "Lauren Baker",
-        "comment": "Mia gave me the best manicure I've ever had.",
-        "rating": 5
-      },
-      {
-        "reviewer": "Ava Walker",
-        "comment": "My nails look amazing, I’m so happy with her work!",
-        "rating": 4
-      }
-    ],
-    "price": "55",
-    "start_time": "11",
-    "end_time": "7",
-    "available_days": "Monday - Wednesday - Saturday",
-    "photo": "/images/person33.jpg"
-  },
-  {
-    "id": 34,
-    "name": "Noah Carter",
-    "category": "Babysitting",
-    "rating": "4.6",
-    "overview": "Reliable babysitter with experience taking care of infants and toddlers.",
-    "location": "Sunnydale",
-    "reviews_num": "110",
-    "tasks_num": "190",
-    "reviews": [
-      {
-        "reviewer": "Grace Anderson",
-        "comment": "Noah is so gentle and caring with my little one.",
-        "rating": 5
-      },
-      {
-        "reviewer": "Lucas Stewart",
-        "comment": "He always goes above and beyond to ensure my kids are happy.",
-        "rating": 4
-      }
-    ],
-    "price": "40",
-    "start_time": "10",
-    "end_time": "6",
-    "available_days": "Wednesday - Friday",
-    "photo": "/images/person34.jpg"
-  },
-  {
-    "id": 35,
-    "name": "Grace Reed",
-    "category": "Personal Teaching",
-    "rating": "4.7",
-    "overview": "Personal tutor with a passion for helping students with history and social studies.",
-    "location": "Star City",
-    "reviews_num": "170",
-    "tasks_num": "290",
-    "reviews": [
-      {
-        "reviewer": "Benjamin Cook",
-        "comment": "Grace has a deep understanding of history and makes it exciting.",
-        "rating": 5
-      },
-      {
-        "reviewer": "Isabelle Morgan",
-        "comment": "Great teacher who helped me improve my grades in social studies.",
-        "rating": 4
-      }
-    ],
-    "price": "65",
-    "start_time": "8",
-    "end_time": "3",
-    "available_days": "Monday - Wednesday - Friday",
-    "photo": "/images/person35.jpg"
-  },
-  {
-    "id": 36,
-    "name": "Jacob Collins",
-    "category": "Appliance Repair",
-    "rating": "4.9",
-    "overview": "Experienced repair technician for kitchen appliances.",
-    "location": "Central City",
-    "reviews_num": "220",
-    "tasks_num": "350",
-    "reviews": [
-      {
-        "reviewer": "Victoria Phillips",
-        "comment": "Jacob fixed our oven in no time. Very efficient!",
-        "rating": 5
-      },
-      {
-        "reviewer": "John Nelson",
-        "comment": "Professional service at a fair price.",
-        "rating": 5
-      }
-    ],
-    "price": "68",
-    "start_time": "9",
-    "end_time": "5",
-    "available_days": "Tuesday - Thursday - Saturday",
-    "photo": "/images/person36.jpg"
-  },
-  {
-    "id": 37,
-    "name": "Olivia Brooks",
-    "category": "Beauty",
-    "rating": "4.8",
-    "overview": "Professional beautician specializing in bridal makeup and styling.",
-    "location": "Hill Valley",
-    "reviews_num": "400",
-    "tasks_num": "600",
-    "reviews": [
-      {
-        "reviewer": "Sarah Powell",
-        "comment": "Olivia made me look amazing for my wedding day.",
-        "rating": 5
-      },
-      {
-        "reviewer": "Emily Harris",
-        "comment": "Superb work and a delightful experience overall!",
-        "rating": 5
-      }
-    ],
-    "price": "90",
-    "start_time": "9",
-    "end_time": "6",
-    "available_days": "Monday - Wednesday - Friday",
-    "photo": "/images/person37.jpg"
-  },
-  {
-    "id": 38,
-    "name": "Lucas Adams",
-    "category": "Babysitting",
-    "rating": "4.7",
-    "overview": "Babysitter known for creating fun and educational activities for kids.",
-    "location": "Gotham",
-    "reviews_num": "130",
-    "tasks_num": "210",
-    "reviews": [
-      {
-        "reviewer": "Amelia Robinson",
-        "comment": "Lucas always comes up with fun activities to keep my kids engaged.",
-        "rating": 5
-      },
-      {
-        "reviewer": "Ethan Bell",
-        "comment": "Great babysitter, highly recommend him.",
-        "rating": 5
-      }
-    ],
-    "price": "35",
-    "start_time": "11",
-    "end_time": "7",
-    "available_days": "Tuesday - Thursday",
-    "photo": "/images/person38.jpg"
-  },
-  {
-    "id": 39,
-    "name": "Charlotte Clark",
-    "category": "Personal Teaching",
-    "rating": "4.9",
-    "overview": "Tutor specializing in creative writing and English literature.",
-    "location": "Metropolis",
-    "reviews_num": "240",
-    "tasks_num": "380",
-    "reviews": [
-      {
-        "reviewer": "Ella Perez",
-        "comment": "Charlotte helped me immensely with my writing skills. Wonderful tutor!",
-        "rating": 5
-      },
-      {
-        "reviewer": "Liam Brooks",
-        "comment": "Her creative writing sessions were very inspiring.",
-        "rating": 5
-      }
-    ],
-    "price": "60",
-    "start_time": "9",
-    "end_time": "4",
-    "available_days": "Wednesday - Friday",
-    "photo": "/images/person39.jpg"
-  },
-  {
-    "id": 40,
-    "name": "Henry Murphy",
-    "category": "Appliance Repair",
-    "rating": "4.8",
-    "overview": "Technician with expertise in repairing microwaves and small kitchen appliances.",
-    "location": "Riverdale",
-    "reviews_num": "180",
-    "tasks_num": "310",
-    "reviews": [
-      {
-        "reviewer": "Brandon Sanchez",
-        "comment": "Henry fixed our microwave quickly. Great service!",
-        "rating": 5
-      },
-      {
-        "reviewer": "David Moore",
-        "comment": "Efficient and reliable, I highly recommend Henry.",
-        "rating": 4
-      }
-    ],
-    "price": "50",
-    "start_time": "10",
-    "end_time": "5",
-    "available_days": "Tuesday - Thursday",
-    "photo": "/images/person40.jpg"
+    "photo": "/images/doctor_6.jpg"
   }
- 
 ]

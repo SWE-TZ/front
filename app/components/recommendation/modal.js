@@ -1,7 +1,7 @@
 // components/Modal.js
 import React from "react";
 import Image from "next/image";
-import img from "@/public/images/home-background.jpg"
+import img from "@/public/images/OIP.jpg"
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ReviewCard from "../recommendation/reviewcard";
@@ -22,7 +22,7 @@ const Modal = ({ isOpen, onClose, employee}) => {
             <div className='grid grid-cols-2 w-[540px] h-[600px] rounded-xl mb-[50px] container mx-auto max-w-screen-sm overflow-y-auto overflow-x-hidden scrollbar scrollbar-thumb-gray-500 srcollbar-track-gray-500 scrollbar-thin'>
                 <div className="col-start-1 ml-[20px] mb-[15px]">
                     <Image src={employee?.photo || img} width={100} height={100} className="rounded-full h-[70px] w-[70px]  mt-[20px] border-2 border-dark" />
-                    <button className="rounded-full bg-light hover:bg-dark border-2 border-dark hover:boder-light font-semibold text-dark hover:text-light jutify-center items-center w-[170px] h-[30px] mt-[20px]" onClick={()=>router.push(`../step4/${employee.category}?employee=${serializedObject}`)}>ASK FOR HELP</button>
+                    <button className="rounded-full bg-light hover:bg-dark border-2 border-dark hover:boder-light font-semibold text-dark hover:text-light jutify-center items-center w-[170px] h-[30px] mt-[20px]" onClick={()=>router.push(`../step4/${employee.category}?employee=${serializedObject}`)}>ADD APPOINTMENT</button>
                 </div>
 
                 <div className="col-start-2 mt-[20px] ml-[-60px]"> 
@@ -31,7 +31,7 @@ const Modal = ({ isOpen, onClose, employee}) => {
                             <label className="text-dark font-bold text-[20px] ">{employee.name || "name"}</label>
                         </div>
                         <div className="col-start-2 ">
-                            <label className="text-dark font-bold text-[20px] ">${employee?.price || "price"}/hour</label>
+                            <label className="text-dark font-bold text-[20px] ">${employee?.price || "price"}</label>
                         </div>
 
                         <div>
@@ -43,7 +43,7 @@ const Modal = ({ isOpen, onClose, employee}) => {
                         </div>
                     </div>
 
-                    <span className="mb-[20px] font-semibold block">{employee?.tasks_num || "tasks"} tasks done</span>
+            
                     
                 </div>
 

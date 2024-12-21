@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <header
-      className="relative bg-[#FBE4CC] h-60 flex flex-col items-center justify-center bg-cover bg-center"
+      className="relative bg-light h-60 flex flex-col items-center justify-center bg-cover bg-center"
       style={{ backgroundImage: "url(/images/contactUs.jpg)" }}
     >
       {/* Overlay with Text */}

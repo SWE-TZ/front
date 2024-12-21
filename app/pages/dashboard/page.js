@@ -1,69 +1,77 @@
 "use client";
-import Head from "next/head";
-import SideMenu from "@/app/components/dashboard/sideMenu";
-import Header from "@/app/components/dashboard/header";
-import StatisticCards from "@/app/components/dashboard/statsCard";
-import RecentServiceRequests from "@/app/components/dashboard/recentReq";
-import RecentReviews from "@/app/components/dashboard/recentReview";
-import { useState } from "react";
-import Earnings from "@/app/components/dashboard/earning";
-import Jobs from "@/app/components/dashboard/jobs";
-import Reviews from "@/app/components/dashboard/reviews";
-import Help from "@/app/components/dashboard/help";
-import MyServices from "@/app/components/dashboard/myServices";
 
-const Dashboard = () => {
+import Link from "next/link";
+import { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
 
-  const [category , setCategory] = useState("Dashboard");
+export default function Home() {
+  const [appointments, setAppointments] = useState([]);
+  const [user, setUser] = useState(null); // Initialize as null
+  const [type, setType] = useState("");
+  const router = useRouter();
 
-  const handleChange = (menuCategory)=>{
-    setCategory(menuCategory)
-  }
+  useEffect(() => {
+    const storedUser = localStorage.getItem("user");
+    if (storedUser) {
+      const parsedUser = JSON.parse(storedUser);
+      setUser(parsedUser);
+      setAppointments(parsedUser.appointments || []); // Safely set appointments
+      setType(parsedUser.type || ""); // Safely set type
+    } else {
+      alert("You should be signed in!");
+      router.push("/pages/choose");
+    }
+  }, []); // Run only once on initial render
 
   return (
-    <div className="flex h-screen bg-dark text-light">
-      <Head>
-        <title>FixIt Dashboard</title>
-        <meta
-          name="description"
-          content="Service Provider Dashboard for FixIt Home Service App"
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      {/* Side Menu */}
-      <SideMenu menuCategory={handleChange}/>
-      {/* Main Content */}
-      <div className="flex-1 flex flex-col">
-        {/* Header */}
-        <Header />
-        {/* Content */}
-        <main className="flex-1 p-6 bg-dark overflow-y-auto">
-          {category === "Dashboard" && <DashboardStatistics />}
-          {category === "My Services" && <MyServices />}
-          {category === "Jobs" && <Jobs />}
-          {category === "Earnings" && <Earnings />}
-          {category === "Reviews" && <Reviews />}
-          {category === "Help" && <Help />}
-        </main>
+    <div
+      style={{
+        padding: "100px",
+        fontFamily: "Arial, sans-serif",
+        backgroundColor: "#61d0b4", // Matching the green background color
+        minHeight: "50vh",
+      }}
+    >
+      {/* Profile Icon */}
+      <div style={{ display: "flex", justifyContent: "flex-end" }}>
+        <Link href={type === "doctor" ? "/pages/doctor_profile" : "/pages/user_profile"}>
+          <img
+            src="/images/user.png"
+            style={{ width: "40px", height: "40px", cursor: "pointer" }}
+            alt="User Profile"
+          />
+        </Link>
       </div>
+
+      <h1 style={{ textAlign: "center", margin: "20px 0", color: "#ffffff" }}>
+        My Appointments
+      </h1>
+      <ul style={{ listStyleType: "none", padding: 0, textAlign: "center" }}>
+        {appointments.map((appointment) => (
+          <li
+            key={appointment.id}
+            style={{
+              margin: "10px 0",
+              padding: "15px",
+              border: "1px solid #ffffff",
+              borderRadius: "5px",
+              backgroundColor: "#ffffff",
+              color: "#61d0b4",
+              boxShadow: "0 2px 5px rgba(0, 0, 0, 0.1)",
+            }}
+          >
+            <p>
+              <strong>Date:</strong> {appointment.date}
+            </p>
+            <p>
+              <strong>Time:</strong> {appointment.time}
+            </p>
+            <p>
+              <strong>Doctor:</strong> {appointment.doctor}
+            </p>
+          </li>
+        ))}
+      </ul>
     </div>
   );
-};
-
-function DashboardStatistics(){
-  return(
-    <>
-      {/* Statistic Cards */}
-      <StatisticCards />
-      {/* Recent Activity */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        <RecentServiceRequests />
-        <RecentReviews />
-      </div>
-    
-    </>
-
-  )
 }
-
-export default Dashboard;

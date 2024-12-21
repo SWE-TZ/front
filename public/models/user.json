@@ -1,143 +1,227 @@
 [
-    {
-      "id": 1,
-      "email": "john.doe@example.com",
-      "password": "password123",
-      "name": "John Doe",
-      "photo":"@/public/images/person1.jpg"
-    },
-    {
-      "id": 2,
-      "email": "jane.smith@example.com",
-      "password": "pass456word",
-      "name": "Jane Smith",
-      "photo":"@/public/images/person2.jpg"
-    },
-    {
-      "id": 3,
-      "email": "mark.johnson@example.com",
-      "password": "mypassword789",
-      "name": "Mark Johnson",
-      "photo":"@/public/images/person3.jpg"
-    },
-    {
-      "id": 4,
-      "email": "emily.davis@example.com",
-      "password": "emily321pass",
-      "name": "Emily Davis",
-      "photo":"@/public/images/person4.jpg"
-    },
-    {
-      "id": 5,
-      "email": "chris.brown@example.com",
-      "password": "brownpass654",
-      "name": "Chris Brown",
-      "photo":"@/public/images/person5.jpg"
-    },
-    {
-      "id": 6,
-      "email": "sara.wilson@example.com",
-      "password": "wilsonpass321",
-      "name": "Sara Wilson",
-      "photo":"@/public/images/person6.jpg"
-    },
-    {
-      "id": 7,
-      "email": "david.martinez@example.com",
-      "password": "davidpass123",
-      "name": "David Martinez",
-      "photo":"@/public/images/person7.jpg"
-    },
-    {
-      "id": 8,
-      "email": "laura.anderson@example.com",
-      "password": "laurapass789",
-      "name": "Laura Anderson",
-      "photo":"@/public/images/person8.jpg"
-    },
-    {
-      "id": 9,
-      "email": "michael.thomas@example.com",
-      "password": "thomaspass987",
-      "name": "Michael Thomas",
-      "photo":"@/public/images/person9.jpg"
-    },
-    {
-      "id": 10,
-      "email": "olivia.lee@example.com",
-      "password": "oliviapass456",
-      "name": "Olivia Lee",
-      "photo":"@/public/images/person10.jpg"
-    },
-    {
-      "id": 11,
-      "email": "james.clark@example.com",
-      "password": "clarkpass654",
-      "name": "James Clark",
-      "photo":"@/public/images/person1.jpg"
-    },
-    {
-      "id": 12,
-      "email": "sophia.robinson@example.com",
-      "password": "sophiapass789",
-      "name": "Sophia Robinson",
-      "photo":"@/public/images/person2.jpg"
-    },
-    {
-      "id": 13,
-      "email": "daniel.wilson@example.com",
-      "password": "danielpass123",
-      "name": "Daniel Wilson",
-      "photo":"@/public/images/person3.jpg"
-    },
-    {
-      "id": 14,
-      "email": "emma.taylor@example.com",
-      "password": "emmataylor123",
-      "name": "Emma Taylor",
-      "photo":"@/public/images/person4.jpg"
-    },
-    {
-      "id": 15,
-      "email": "lucas.adams@example.com",
-      "password": "lucaspass321",
-      "name": "Lucas Adams",
-      "photo":"@/public/images/person5.jpg"
-    },
-    {
-      "id": 16,
-      "email": "mia.davis@example.com",
-      "password": "miapass456",
-      "name": "Mia Davis",
-      "photo":"@/public/images/person6.jpg"
-    },
-    {
-      "id": 17,
-      "email": "ethan.harris@example.com",
-      "password": "ethanharris654",
-      "name": "Ethan Harris",
-      "photo":"@/public/images/person7.jpg"
-    },
-    {
-      "id": 18,
-      "email": "ava.martinez@example.com",
-      "password": "avamartinez789",
-      "name": "Ava Martinez",
-      "photo":"@/public/images/person8.jpg"
-    },
-    {
-      "id": 19,
-      "email": "oliver.walker@example.com",
-      "password": "oliverpass123",
-      "name": "Oliver Walker",
-      "photo":"@/public/images/person9.jpg"
-    },
-    {
-      "id": 20,
-      "email": "isabella.young@example.com",
-      "password": "isabellapass456",
-      "name": "Isabella Young",
-      "photo":"@/public/images/person10.jpg"
-    }
+  {
+    "id": 1,
+    "email": "john.doe@example.com",
+    "password": "password123",
+    "name": "Dr. John Doe",
+    "appointments": [
+      { "id": "1", "date": "2024-12-05", "time": "10:00 AM", "doctor": "Dr. Smith" },
+      { "id": "2", "date": "2024-12-07", "time": "2:00 PM", "doctor": "Dr. Johnson" },
+      { "id": "3", "date": "2024-12-10", "time": "11:30 AM", "doctor": "Dr. Brown" }
+    ],
+    "type": "doctor",
+    "specialization": "Cardiology",
+    "photo": "/images/doctor1.jpg"
+  },
+  {
+    "id": 2,
+    "email": "jane.smith@example.com",
+    "password": "pass456word",
+    "name": "Dr. Jane Smith",
+    "appointments": [
+      { "id": "4", "date": "2024-12-20", "time": "10:00 AM", "doctor": "Dr. Smith" },
+      { "id": "5", "date": "2025-01-03", "time": "2:00 PM", "doctor": "Dr. Johnson" },
+      { "id": "6", "date": "2025-01-10", "time": "11:30 AM", "doctor": "Dr. Brown" }
+    ],
+    "type": "doctor",
+    "specialization": "Dermatology",
+    "photo": "/images/doctor2.jpg"
+  },
+  {
+    "id": 3,
+    "email": "mark.johnson@example.com",
+    "password": "mypassword789",
+    "name": "Dr. Mark Johnson",
+    "appointments": [
+      { "id": "7", "date": "2024-12-05", "time": "10:00 AM", "doctor": "Dr. Smith" },
+      { "id": "8", "date": "2024-12-07", "time": "2:00 PM", "doctor": "Dr. Johnson" },
+      { "id": "9", "date": "2024-12-10", "time": "11:30 AM", "doctor": "Dr. Brown" }
+    ],
+    "type": "doctor",
+    "specialization": "Neurology",
+    "photo": "/images/doctor3.jpg"
+  },
+  {
+    "id": 4,
+    "email": "emily.davis@example.com",
+    "password": "emily321pass",
+    "name": "Emily Davis",
+    "appointments": [
+      { "id": "10", "date": "2024-12-15", "time": "3:00 PM", "doctor": "Dr. John Doe" },
+      { "id": "11", "date": "2024-12-17", "time": "11:00 AM", "doctor": "Dr. Jane Smith" }
+    ],
+    "type": "patient",
+    "specialization": "patient",
+    "photo": "/images/patient1.jpg"
+  },
+  {
+    "id": 5,
+    "email": "michael.clark@example.com",
+    "password": "securepass456",
+    "name": "Michael Clark",
+    "appointments": [
+      { "id": "12", "date": "2024-12-20", "time": "9:00 AM", "doctor": "Dr. Mark Johnson" },
+      { "id": "13", "date": "2024-12-25", "time": "1:00 PM", "doctor": "Dr. Emily Davis" }
+    ],
+    "type": "patient",
+    "specialization": "patient",
+    "photo": "/images/patient2.jpg"
+  },
+  {
+    "id": 6,
+    "email": "sophia.lee@example.com",
+    "password": "lee321pass",
+    "name": "Dr. Sophia Lee",
+    "appointments": [
+      { "id": "14", "date": "2024-12-05", "time": "10:30 AM", "doctor": "Dr. Smith" },
+      { "id": "15", "date": "2024-12-08", "time": "12:00 PM", "doctor": "Dr. Johnson" }
+    ],
+    "type": "doctor",
+    "specialization": "Radiology",
+    "photo": "/images/doctor4.jpg"
+  },
+  {
+    "id": 7,
+    "email": "omar@gmail.com",
+    "password": "0000",
+    "name": "Omar Medhat",
+    "appointments": [
+      { "id": "16", "date": "2024-12-22", "time": "9:00 AM", "doctor": "Dr. Sophia Lee" },
+      { "id": "17", "date": "2024-12-30", "time": "2:00 PM", "doctor": "Dr. Mark Johnson" }
+    ],
+    "type": "patient",
+    "specialization": "patient",
+    "photo": "/images/patient3.jpg"
+  },
+  {
+    "id": 8,
+    "email": "linda.green@example.com",
+    "password": "lindapass123",
+    "name": "Dr. Linda Green",
+    "appointments": [
+      { "id": "18", "date": "2024-12-18", "time": "1:30 PM", "doctor": "Dr. Jane Smith" },
+      { "id": "19", "date": "2024-12-22", "time": "3:00 PM", "doctor": "Dr. John Doe" }
+    ],
+    "type": "doctor",
+    "specialization": "Endocrinology",
+    "photo": "/images/doctor5.jpg"
+  },
+  {
+    "id": 9,
+    "email": "noah.wilson@example.com",
+    "password": "noahpass789",
+    "name": "Noah Wilson",
+    "appointments": [
+      { "id": "20", "date": "2024-12-10", "time": "11:00 AM", "doctor": "Dr. Linda Green" },
+      { "id": "21", "date": "2024-12-15", "time": "2:00 PM", "doctor": "Dr. Sophia Lee" }
+    ],
+    "type": "patient",
+    "specialization": "patient",
+    "photo": "/images/patient4.jpg"
+  },
+  {
+    "id": 10,
+    "email": "david.martin@example.com",
+    "password": "davidsecure123",
+    "name": "Dr. David Martin",
+    "appointments": [
+      { "id": "22", "date": "2024-12-11", "time": "10:00 AM", "doctor": "Dr. John Doe" },
+      { "id": "23", "date": "2024-12-14", "time": "2:30 PM", "doctor": "Dr. Jane Smith" }
+    ],
+    "type": "doctor",
+    "specialization": "Pulmonology",
+    "photo": "/images/doctor6.jpg"
+  },
+  {
+    "id": 11,
+    "email": "lucas.brown@example.com",
+    "password": "lucasbrown789",
+    "name": "Lucas Brown",
+    "appointments": [
+      { "id": "24", "date": "2024-12-20", "time": "3:00 PM", "doctor": "Dr. Mark Johnson" },
+      { "id": "25", "date": "2024-12-23", "time": "1:00 PM", "doctor": "Dr. Sophia Lee" }
+    ],
+    "type": "patient",
+    "specialization": "patient",
+    "photo": "/images/patient5.jpg"
+  },
+  {
+    "id": 12,
+    "email": "amelia.jones@example.com",
+    "password": "amelia456secure",
+    "name": "Dr. Amelia Jones",
+    "appointments": [
+      { "id": "26", "date": "2024-12-13", "time": "10:00 AM", "doctor": "Dr. David Martin" },
+      { "id": "27", "date": "2024-12-16", "time": "4:00 PM", "doctor": "Dr. Linda Green" }
+    ],
+    "type": "doctor",
+    "specialization": "Ophthalmology",
+    "photo": "/images/doctor7.jpg"
+  },
+  {
+    "id": 13,
+    "email": "ella.white@example.com",
+    "password": "ella789pass",
+    "name": "Ella White",
+    "appointments": [
+      { "id": "28", "date": "2024-12-18", "time": "11:30 AM", "doctor": "Dr. Amelia Jones" },
+      { "id": "29", "date": "2024-12-21", "time": "3:00 PM", "doctor": "Dr. David Martin" }
+    ],
+    "type": "patient",
+    "specialization": "patient",
+    "photo": "/images/patient6.jpg"
+  },
+  {
+    "id": 14,
+    "email": "liam.miller@example.com",
+    "password": "liamsecure999",
+    "name": "Dr. Liam Miller",
+    "appointments": [
+      { "id": "30", "date": "2024-12-22", "time": "2:00 PM", "doctor": "Dr. Jane Smith" },
+      { "id": "31", "date": "2024-12-25", "time": "10:00 AM", "doctor": "Dr. Sophia Lee" }
+    ],
+    "type": "doctor",
+    "specialization": "Rheumatology",
+    "photo": "/images/doctor8.jpg"
+  },
+  {
+    "id": 15,
+    "email": "chloe.davis@example.com",
+    "password": "chloepass111",
+    "name": "Chloe Davis",
+    "appointments": [
+      { "id": "32", "date": "2024-12-12", "time": "1:30 PM", "doctor": "Dr. Liam Miller" },
+      { "id": "33", "date": "2024-12-19", "time": "10:30 AM", "doctor": "Dr. Amelia Jones" }
+    ],
+    "type": "patient",
+    "specialization": "patient",
+    "photo": "/images/patient7.jpg"
+  },
+  {
+    "id": 16,
+    "email": "emma.walker@example.com",
+    "password": "walkersecure321",
+    "name": "Dr. Emma Walker",
+    "appointments": [
+      { "id": "34", "date": "2024-12-10", "time": "11:00 AM", "doctor": "Dr. John Doe" },
+      { "id": "35", "date": "2024-12-14", "time": "9:30 AM", "doctor": "Dr. David Martin" }
+    ],
+    "type": "doctor",
+    "specialization": "Nephrology",
+    "photo": "/images/doctor9.jpg"
+  },
+  {
+    "id": 17,
+    "email": "james.king@example.com",
+    "password": "kingpass654",
+    "name": "James King",
+    "appointments": [
+      { "id": "36", "date": "2024-12-19", "time": "2:00 PM", "doctor": "Dr. Liam Miller" },
+      { "id": "37", "date": "2024-12-24", "time": "11:00 AM", "doctor": "Dr. Emma Walker" }
+    ],
+    "type": "patient",
+    "specialization": "patient",
+    "photo": "/images/patient8.jpg"
+  }
 ]
-  
+

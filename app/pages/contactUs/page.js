@@ -4,7 +4,7 @@ import React from "react";
 
 const ContactUs = () => {
   return (
-    <div className="bg-[#FBE4CC] text-[#1B262C]">
+    <div className="bg-light text-dark">
       <Header />
       {/* Hero Section */}
       <p className="text-xl max-w-3xl mx-auto mt-5">
@@ -34,7 +34,7 @@ const ContactUs = () => {
 
 // Sample ContactInfo Component
 const ContactInfo = ({ icon, label, info }) => (
-  <div className="flex items-center p-4 bg-[#1B262C] text-[#FBE4CC] rounded-lg shadow-lg">
+  <div className="flex items-center p-4 bg-dark text-light rounded-lg shadow-lg">
     <span className="text-3xl mr-4">{icon}</span>
     <div>
       <h3 className="font-bold">{label}</h3>

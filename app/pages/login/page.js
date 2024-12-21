@@ -1,101 +1,107 @@
-"use client";
-import React, { useState } from "react";
+"use client"; // Ensure it's the first line
+import React, { useEffect, useState } from "react";
+import { useRouter } from "next/navigation"; // Use for navigation
 import Image from "next/image";
-// import bg from "/public/logos/bg.jpg";
-import logo from "/public/logos/footer-logo.png";
-import { useRouter } from "next/navigation";
+import logo from "/public/images/logo.png"; // Adjust this path as needed
+
 
 export default function Login() {
-  const [user, setUser] = useState("");
+  const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [users, setUsers] = useState([]);
+  const [error, setError] = useState("");
+  const [successMessage, setSuccessMessage] = useState("");
   const router = useRouter();
 
-  const handleInput = (e) => {
-    const x = e.target.value;
-    if (e.target.id === "TB_user") {
-      setUser(x);
-    } else if (e.target.id === "TB_password") {
-      setPassword(x);
-    }
-  };
-
-  const ShowResult = (e) => {
-    e.preventDefault();
-    const username = [
-      "Rawan@gmail.com",
-      "Mohammed@hotmail.com",
-      "doaa@yahoo.com",
-      "Ali@gmail.com",
-    ];
-    let result;
-    const pass = ["1234", "5678", "0000", "8888"];
-    if (username.includes(user) && pass.includes(password)) {
-      result = "Login Successful";
+  const validate = (result,type,user) => {
+    console.log("Email:", email, "Password:", password,"type:", type, "Result:", result);
+    if (result.includes("Successful")) {
+      console.log("user:",user);
+      localStorage.setItem("user", JSON.stringify(user));
+      router.push("/pages/dashboard");
     } else {
-      result =  "Login Failed";
+      alert("Error credentials!");
     }
-    validate(result);
   };
 
-  function validate(result){
-    console.log(user," and th pass is : ",password, " and the result is  : ",result)
-    if(result.includes("Successful"))
-    {
-      router.push('../pages/dashboard')
+  useEffect(()=>{
+    fetch("/models/user.json")
+      .then((response) => response.json())
+      .then((data) => {
+        setUsers(data);
+      })
+      .catch((error) => console.error("Failed to fetch users:", error));
+  }, []);
+
+  const handleLogin = (e) => {
+    e.preventDefault();
+    setError(""); 
+    setSuccessMessage("");
+
+    // Validate user credentials
+    const user = users.find(
+      (user) => user.email === email && user.password === password
+    );
+
+    if (user) {
+      const successResult = "Login Successful!";
+      const type = user.type;
+      setSuccessMessage(successResult);
+      validate(successResult,type,user);
+    } else {
+      const errorResult = "Login Failed!";
+      setError(errorResult);
+      validate(errorResult);
     }
-    else{
-      alert("Error credintials!")
-    }
-  }
+  };
 
   return (
-    <div className="relative w-full h-screen">
-      {/* Background Image */}
-      {/* <Image
-        src={bg}
-        alt="Background"
-        layout="fill"
-        objectFit="cover"
-        quality={100}
-        className="z-0"
-      /> */}
-      {/* Content */}
-      <div className="relative z-10 flex justify-center items-center h-full">
+    <div className="relative w-full h-screen overflow-hidden bg-light">
+      <div className="relative z-10 flex justify-center items-center h-full bg-opacity-50 backdrop-blur-sm">
         <form
-          onSubmit={ShowResult}
-          className="bg-[#1B262C] bg-opacity-80 p-8 rounded-3xl shadow-2xl max-w-md w-full mx-auto flex flex-col relative backdrop-blur-md"
+          onSubmit={handleLogin}
+          className="bg-dark/90 p-10 rounded-3xl shadow-2xl max-w-lg w-full mx-auto flex flex-col space-y-6 border border-light mt-10"
         >
           {/* Logo */}
           <div className="flex justify-center mb-6">
-            <Image
-              src={logo}
-              alt="Logo"
-              width={150}
-              height={50}
-              priority={true}
-            />
+            <Image src={logo} alt="Logo" width={150} height={50} />
           </div>
-          <label className="text-[#FBE4CC] text-sm mb-1">Email Address</label>
+
+          {/* Success or Error Messages */}
+          {error && (
+            <div className="mb-4 bg-red-100 text-red-600 p-2 rounded text-center">
+              {error}
+            </div>
+          )}
+          {successMessage && (
+            <div className="mb-4 bg-green-100 text-green-600 p-2 rounded text-center">
+              {successMessage}
+            </div>
+          )}
+
+          {/* Input Fields */}
           <input
             type="email"
-            id="TB_user"
-            value={user}
-            onChange={handleInput}
-            className="block mb-4 w-full px-4 py-2 rounded-lg text-[#1B262C] bg-[#FBE4CC] focus:ring-2 focus:ring-[#1B262C] focus:outline-none transition-all duration-300"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            className="block w-full px-4 py-3 rounded-lg text-dark bg-light placeholder-gray-600"
+            placeholder="Email Address"
+            required
           />
-          <label className="text-[#FBE4CC] text-sm mb-1">Password</label>
           <input
             type="password"
-            id="TB_password"
             value={password}
-            onChange={handleInput}
-            className="block mb-4 w-full px-4 py-2 rounded-lg text-[#1B262C] bg-[#FBE4CC] focus:ring-2 focus:ring-[#1B262C] focus:outline-none transition-all duration-300"
+            onChange={(e) => setPassword(e.target.value)}
+            className="block w-full px-4 py-3 rounded-lg text-dark bg-light placeholder-gray-600"
+            placeholder="Password"
+            required
           />
+
+          {/* Submit Button */}
           <div className="flex justify-center mt-6">
             <button
               type="submit"
-              className="bg-[#FBE4CC] text-[#1B262C] hover:bg-[#334955] hover:text-[#FBE4CC] font-semibold py-3 px-6 rounded-full transition-transform transform hover:scale-105"
-              
+              className="bg-light text-dark hover:bg-[#334955] transition-colors duration-300 py-3 px-6 rounded-full"
             >
               Login
             </button>

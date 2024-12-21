@@ -1,68 +1,56 @@
 {
-    "cleaning": {
-      "title": "Cleaning",
-      "description": "Clean your home or office; deep clean appliances and other spaces.",
-      "trending": "Now Trending: Eco-friendly products, home cleaning checklists, and cleaning hacks.",
-      "services": [
-        "Party Clean Up",
-        "Apartment Cleaning",
-        "Deep Clean",
-        "Garage Cleaning",
-        "Move Out Clean"
-      ],
-      "image": "/logos/home-clean.jpg"
-    },
-    "painting": {
-      "title": "Painting",
-      "description": "Paint walls, ceilings, molding, and doors; includes prep and cleanup.",
-      "trending": "Now Trending: Color blocking, stripe details, and statement colors.",
-      "services": [
-        "Interior Painting",
-        "Exterior Painting",
-        "Wallpaper Removal",
-        "Accent Wall Painting",
-        "Concrete & Brick Painting"
-      ],
-      "image": "/logos/StockCake-Painter at Work_1728129298.jpg"
-    },
-    "electrical": {
-      "title": "Electrical",
-      "description": "Electrical installations, repairs, and safety checks for your home or office.",
-      "trending": "Now Trending: Smart home systems, energy-efficient lighting.",
-      "services": [
-        "Light Installation",
-        "Socket Repairs",
-        "Electrical Wiring",
-        "Home Automation",
-        "Energy Efficiency Consultations"
-      ],
-      "image": "/logos/StockCake-Chandelier Installation Work_1728133973.jpg"
-    },
-    "homeRepairs": {
-      "title": "Home Repairs",
-      "description": "Home improvements like plumbing, electrical, and appliance installation.",
-      "trending": "Now Trending: Chandeliers, brass faucets, and smart toilets.",
-      "services": [
-        "Plumbing Repairs",
-        "Door & Window Repairs",
-        "Furniture Assembly",
-        "Roof Repairs",
-        "Flooring Installation"
-      ],
-      "image": "/logos/StockCake-Roofer at Work_1728134558.jpg"
-    },
-    "moving": {
-      "title": "Moving",
-      "description": "Moving help such as packing/unpacking, loading, and lifting heavy items.",
-      "trending": "Now Trending: Single-item moves, apartment moves, and junk removal.",
-      "services": [
-        "Help Moving",
-        "Heavy Lifting & Loading",
-        "Rearrange Furniture",
-        "Truck-Assisted Help Moving",
-        "Junk Haul Away"
-      ],
-      "image": "/logos/StockCake-Delivery Worker Outside_1728135331.jpg"
-    }
+  "Cardiologist": {
+    "title": "Cardiologist",
+    "description": "Examines your heart and blood pressure.",
+    "services": [
+      "Heart examination",
+      "Stress Tests",
+      "Holter Monitoring"
+    ],
+    "image": "/images/cardio.jpg"
+  },
+  "Neurologist": {
+    "title": "Neurologist",
+    "description": "Neurologists specialize in diagnosing, treating, and managing disorders of the brain, spinal cord, and peripheral nervous system.",
+    "services": [
+      "Neurological Examinations",
+      "Lumbar Punctures",
+      "Spinal Taps",
+      "Blood Tests"
+    ],
+    "image": "/images/Neurologist.jpg"
+  },
+  "Physiotherapist": {
+    "title": "Physiotherapist",
+    "description": "Physiotherapists specialize in improving physical function, mobility, and overall well-being through exercises, manual therapy, and other non-invasive treatments.",
+    "services": [
+      "Physical Assessments",
+      "Pain Diagnosis",
+      "Functional Evaluations",
+      "Stroke Recovery"
+    ],
+    "image": "/images/Physiotherapist.jpg"
+  },
+  "InternalMedicine": {
+    "title": "Internal Medicine",
+    "description": "Internal medicine physicians, also known as internists, specialize in the prevention, diagnosis, and treatment of adult illnesses and conditions.",
+    "services": [
+      "Screening Tests",
+      "Respiratory Infections",
+      "Gastrointestinal Issues",
+      "Thyroid Disorders"
+    ],
+    "image": "/images/Internal_medicine.jpg"
+  },
+  "Gynecologist": {
+    "title": "Gynecologist",
+    "description": "Gynecologists specialize in women's reproductive health, providing care for various conditions, performing surgeries, and supporting women through different life stages.",
+    "services": [
+      "Annual Check-Ups",
+      "Pap Smears",
+      "Breast Exams",
+      "HPV Vaccination"
+    ],
+    "image": "/images/Gynecologist.jpg"
   }
-  
+}
