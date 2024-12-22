@@ -37,23 +37,23 @@ const UserProfile = () => {
                         </div>
                     </div>
                     <div className="text-right">
-                        <p className="text-lg font-semibold text-gray-500">{user?`${user.email}`:"No email"}</p>
+                        <p className="text-lg font-semibold text-gray-500">{user?`${user.gender}`:"No gender"}</p>
                     </div>
                 </div>
 
                 {/* interests Section */}
                 <div className="mt-6">
-                    <h2 className="text-xl font-semibold text-teal-600">Departments interested in</h2>
+                    <h2 className="text-xl font-semibold text-teal-600">Email</h2>
                     <p className="bg-gray-100 p-4 rounded-md text-gray-700 mt-2">
-                    Cardiology,Neurology
+                    {user ? `${user.email}`: "No email"}
                     </p>
                 </div>
 
                 {/* location Section */}
                 <div className="mt-6">
-                    <h2 className="text-xl font-semibold text-teal-600">Email</h2>
+                    <h2 className="text-xl font-semibold text-teal-600">Departments interested in</h2>
                     <p className="bg-gray-100 p-4 rounded-md text-gray-700 mt-2">
-                        zayed
+                    {user ? `${user.departments_interested_in}`: "No departments_interested_in"}
                     </p>
                 </div>
             </div>

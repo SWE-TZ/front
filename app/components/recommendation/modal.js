@@ -59,17 +59,16 @@ const Modal = ({ isOpen, onClose, employee}) => {
                     <label className="text-dark font-bold text-[20px] block mb-[20px]">Reviews about my work</label>
                     <div className="w-[full] h-[100px] flex flex-row flex-wrap gap-[5px]">
                       {
-                        employee?.reviews.map(review => {
-                          return (
-                            <div key={review.id} className="">
-                              <ReviewCard name={review.reviewer} review={review.comment} rating={review.rating} />
-                            </div>
-                          );
-                        }) || "reviews"
-                        
-
+                        employee?.reviews?.map((review, index) => (
+                          <div key={review.id || index} className="">
+                            <ReviewCard
+                              name={review.reviewer}
+                              review={review.comment}
+                              rating={review.rating}
+                            />
+                          </div>
+                        )) || "reviews"
                       }
-
                     </div>
                     
                 </div>

@@ -1,49 +1,5 @@
 [
   {
-    "id": 1,
-    "email": "john.doe@example.com",
-    "password": "password123",
-    "name": "Dr. John Doe",
-    "appointments": [
-      { "id": "1", "date": "2024-12-05", "time": "10:00 AM", "doctor": "Dr. Smith" },
-      { "id": "2", "date": "2024-12-07", "time": "2:00 PM", "doctor": "Dr. Johnson" },
-      { "id": "3", "date": "2024-12-10", "time": "11:30 AM", "doctor": "Dr. Brown" }
-    ],
-    "price": 100,
-    "type": "doctor",
-    "specialization": "Cardiology",
-    "photo": "/images/doctor1.jpg",
-    "about": "Dr. John Doe is an experienced cardiologist with over 15 years of practice in treating heart conditions.",
-    "rating":5
-    ,"skills": ["Echocardiography", "Cardiac catheterization", "Stress testing"],
-    "reviews": [
-      { "rating": 5, "comment": "Dr. Doe is very professional and caring." },
-      { "rating": 4, "comment": "Highly skilled and explains everything clearly." }
-    ]
-  },
-  {
-    "id": 2,
-    "email": "jane.smith@example.com",
-    "password": "pass456word",
-    "name": "Dr. Jane Smith",
-    "appointments": [
-      { "id": "4", "date": "2024-12-20", "time": "10:00 AM", "doctor": "Dr. Smith" },
-      { "id": "5", "date": "2025-01-03", "time": "2:00 PM", "doctor": "Dr. Johnson" },
-      { "id": "6", "date": "2025-01-10", "time": "11:30 AM", "doctor": "Dr. Brown" }
-    ],
-    "price": 150,
-    "type": "doctor",
-    "specialization": "Dermatology",
-    "photo": "/images/doctor2.jpg",
-    "about": "Dr. Jane Smith specializes in treating skin disorders and enhancing skin health.",
-    "rating":4.2
-    ,"skills": ["Skin biopsy", "Acne treatment", "Laser therapy"],
-    "reviews": [
-      { "rating": 5, "comment": "Very attentive and skilled dermatologist." },
-      { "rating": 4, "comment": "My skin has improved significantly under her care." }
-    ]
-  },
-  {
     "id": 4,
     "email": "emily.davis@example.com",
     "password": "emily321pass",
@@ -57,9 +13,29 @@
     "specialization": "patient",
     "photo": "/images/patient1.jpg",
     "about": "",
-    "rating":0
-    ,"skills": [],
-    "reviews": []
+    "rating": 0,
+    "skills": [],
+    "reviews": [],
+    "departments_interested_in": ["Cardiology", "Dermatology"],
+    "gender": "Female"
+  },
+  {
+    "id": 1,
+    "email": "dr.john.doe@example.com",
+    "password": "docpass123",
+    "name": "Dr. John Doe",
+    "appointments": [],
+    "price": 150,
+    "type": "doctor",
+    "specialization": "Cardiology",
+    "photo": "/images/doctor1.jpg",
+    "about": "Experienced cardiologist specializing in heart health.",
+    "rating": 4.8,
+    "skills": ["ECG", "Heart Surgery"],
+    "reviews": [
+      { "patient": "Emily Davis", "comment": "Excellent service!" },
+      { "patient": "Michael Clark", "comment": "Very knowledgeable." }
+    ]
   },
   {
     "id": 5,
@@ -75,52 +51,28 @@
     "specialization": "patient",
     "photo": "/images/patient2.jpg",
     "about": "",
-    "rating":0
-    ,"skills": [],
-    "reviews": []
+    "rating": 0,
+    "skills": [],
+    "reviews": [],
+    "departments_interested_in": ["Neurology", "Endocrinology"],
+    "gender": "Male"
   },
   {
-    "id": 3,
-    "email": "mark.johnson@example.com",
-    "password": "mypassword789",
-    "name": "Dr. Mark Johnson",
-    "appointments": [
-      { "id": "7", "date": "2024-12-05", "time": "10:00 AM", "doctor": "Dr. Smith" },
-      { "id": "8", "date": "2024-12-07", "time": "2:00 PM", "doctor": "Dr. Johnson" },
-      { "id": "9", "date": "2024-12-10", "time": "11:30 AM", "doctor": "Dr. Brown" }
-    ],
-    "price": 70,
+    "id": 2,
+    "email": "dr.jane.smith@example.com",
+    "password": "doc456pass",
+    "name": "Dr. Jane Smith",
+    "appointments": [],
+    "price": 200,
     "type": "doctor",
-    "specialization": "Neurology",
-    "photo": "/images/doctor_3.jpg",
-    "about": "Dr. Mark Johnson is a leading neurologist with expertise in treating brain and nervous system disorders.",
-    "rating":3.7
-    ,"skills": ["EEG analysis", "Stroke management", "Neurodegenerative disorders"],
+    "specialization": "Dermatology",
+    "photo": "/images/doctor2.jpg",
+    "about": "Skilled dermatologist with over 10 years of experience.",
+    "rating": 4.7,
+    "skills": ["Skin Treatments", "Cosmetic Procedures"],
     "reviews": [
-      { "rating": 5, "comment": "Very thorough and compassionate doctor." },
-      { "rating": 5, "comment": "He took the time to explain everything about my condition." }
-    ]
-  },
-
-  {
-    "id": 6,
-    "email": "sophia.lee@example.com",
-    "password": "lee321pass",
-    "name": "Dr. Sophia Lee",
-    "appointments": [
-      { "id": "14", "date": "2024-12-05", "time": "10:30 AM", "doctor": "Dr. Smith" },
-      { "id": "15", "date": "2024-12-08", "time": "12:00 PM", "doctor": "Dr. Johnson" }
-    ],
-    "price": 130,
-    "type": "doctor",
-    "specialization": "Radiology",
-    "photo": "/images/doctor4.jpg",
-    "about": "Dr. Sophia Lee is a radiologist specializing in diagnostic imaging techniques.",
-    "rating":5
-    ,"skills": ["MRI interpretation", "CT scans", "Ultrasound diagnostics"],
-    "reviews": [
-      { "rating": 5, "comment": "Dr. Lee's imaging skills helped diagnose my condition early." },
-      { "rating": 4, "comment": "She explained the imaging results clearly and thoroughly." }
+      { "patient": "Noah Wilson", "comment": "Great results!" },
+      { "patient": "Emily Davis", "comment": "Very professional." }
     ]
   },
   {
@@ -137,107 +89,28 @@
     "specialization": "patient",
     "photo": "/images/patient3.jpg",
     "about": "",
-    "rating":0
-    ,"skills": [],
-    "reviews": []
+    "rating": 0,
+    "skills": [],
+    "reviews": [],
+    "departments_interested_in": ["Radiology", "Neurology"],
+    "gender": "Male"
   },
   {
-    "id": 8,
-    "email": "linda.green@example.com",
-    "password": "lindapass123",
-    "name": "Dr. Linda Green",
-    "appointments": [
-      { "id": "18", "date": "2024-12-18", "time": "1:30 PM", "doctor": "Dr. Jane Smith" },
-      { "id": "19", "date": "2024-12-22", "time": "3:00 PM", "doctor": "Dr. John Doe" }
-    ],
-    "price": 110,
+    "id": 3,
+    "email": "dr.mark.johnson@example.com",
+    "password": "markdoc789",
+    "name": "Dr. Mark Johnson",
+    "appointments": [],
+    "price": 175,
     "type": "doctor",
-    "specialization": "Endocrinology",
-    "photo": "/images/doctor5.jpg",
-    "about": "Dr. Linda Green focuses on diagnosing and treating hormone-related conditions.",
-    "rating":4.8
-    ,"skills": ["Diabetes management", "Thyroid disorders", "Hormone replacement therapy"],
+    "specialization": "Neurology",
+    "photo": "/images/doctor3.jpg",
+    "about": "Expert neurologist focused on brain health.",
+    "rating": 4.9,
+    "skills": ["MRI Analysis", "Brain Surgery"],
     "reviews": [
-      { "rating": 5, "comment": "Dr. Green has greatly helped me manage my diabetes." },
-      { "rating": 4, "comment": "She is very knowledgeable about hormonal conditions." }
-    ]
-  },
-  {
-    "id": 9,
-    "email": "noah.wilson@example.com",
-    "password": "noahpass789",
-    "name": "Noah Wilson",
-    "appointments": [
-      { "id": "20", "date": "2024-12-10", "time": "11:00 AM", "doctor": "Dr. Linda Green" },
-      { "id": "21", "date": "2024-12-15", "time": "2:00 PM", "doctor": "Dr. Sophia Lee" }
-    ],
-    "price": 0,
-    "type": "patient",
-    "specialization": "patient",
-    "photo": "/images/patient4.jpg",
-    "about": "",
-    "rating":0
-    ,"skills": [],
-    "reviews": []
-  },
-  {
-    "id": 10,
-    "email": "david.martin@example.com",
-    "password": "davidsecure123",
-    "name": "Dr. David Martin",
-    "appointments": [
-      { "id": "22", "date": "2024-12-11", "time": "10:00 AM", "doctor": "Dr. John Doe" },
-      { "id": "23", "date": "2024-12-14", "time": "2:30 PM", "doctor": "Dr. Jane Smith" }
-    ],
-    "price": 90,
-    "type": "doctor",
-    "specialization": "Pulmonology",
-    "photo": "/images/doctor6.jpg",
-    "about": "Dr. David Martin is a pulmonologist specializing in respiratory diseases.",
-    "rating":4.3
-    ,"skills": ["Lung function tests", "Asthma treatment", "Bronchoscopy"],
-    "reviews": [
-      { "rating": 5, "comment": "Dr. Martin is a fantastic pulmonologist who truly cares." },
-      { "rating": 5, "comment": "Helped me breathe easier with his treatment plan." }
-    ]
-  },
-  {
-    "id": 11,
-    "email": "lucas.brown@example.com",
-    "password": "lucasbrown789",
-    "name": "Lucas Brown",
-    "appointments": [
-      { "id": "24", "date": "2024-12-20", "time": "3:00 PM", "doctor": "Dr. Mark Johnson" },
-      { "id": "25", "date": "2024-12-23", "time": "1:00 PM", "doctor": "Dr. Sophia Lee" }
-    ],
-    "price": 0,
-    "type": "patient",
-    "specialization": "patient",
-    "photo": "/images/patient5.jpg",
-    "about": "",
-    "rating":0
-    ,"skills": [],
-    "reviews": []
-  },
-  {
-    "id": 12,
-    "email": "amelia.jones@example.com",
-    "password": "amelia456secure",
-    "name": "Dr. Amelia Jones",
-    "appointments": [
-      { "id": "26", "date": "2024-12-13", "time": "10:00 AM", "doctor": "Dr. David Martin" },
-      { "id": "27", "date": "2024-12-16", "time": "4:00 PM", "doctor": "Dr. Linda Green" }
-    ],
-    "price": 300,
-    "type": "doctor",
-    "specialization": "Ophthalmology",
-    "photo": "/images/doctor7.jpg",
-    "about": "Dr. Amelia Jones is an ophthalmologist with a passion for eye care and vision improvement.",
-    "rating":4.9
-    ,"skills": ["Cataract surgery", "Vision correction", "Glaucoma treatment"],
-    "reviews": [
-      { "rating": 5, "comment": "Dr. Jones gave me back my clear vision. Truly grateful!" },
-      { "rating": 4, "comment": "Very patient and understanding." }
+      { "patient": "Omar Medhat", "comment": "Very detailed and helpful!" },
+      { "patient": "Lucas Brown", "comment": "Highly recommended." }
     ]
   },
   {
@@ -254,87 +127,162 @@
     "specialization": "patient",
     "photo": "/images/patient6.jpg",
     "about": "",
-    "rating":0
-    ,"skills": [],
-    "reviews": []
+    "rating": 0,
+    "skills": [],
+    "reviews": [],
+    "departments_interested_in": ["Ophthalmology", "Pulmonology"],
+    "gender": "Female"
   },
   {
-    "id": 14,
-    "email": "liam.miller@example.com",
-    "password": "liamsecure999",
-    "name": "Dr. Liam Miller",
-    "appointments": [
-      { "id": "30", "date": "2024-12-22", "time": "2:00 PM", "doctor": "Dr. Jane Smith" },
-      { "id": "31", "date": "2024-12-25", "time": "10:00 AM", "doctor": "Dr. Sophia Lee" }
-    ],
-    "price": 130,
+    "id": 6,
+    "email": "dr.amelia.jones@example.com",
+    "password": "docpass001",
+    "name": "Dr. Amelia Jones",
+    "appointments": [],
+    "price": 180,
     "type": "doctor",
-    "specialization": "Rheumatology",
-    "photo": "/images/doctor8.jpg",
-    "about": "Dr. Liam Miller is an experienced rheumatologist helping patients manage chronic joint and autoimmune conditions.",
-    "rating":3.9
-    ,"skills": ["Arthritis treatment", "Autoimmune disease management", "Joint injections"],
+    "specialization": "Ophthalmology",
+    "photo": "/images/doctor4.jpg",
+    "about": "Ophthalmologist specializing in eye surgery and vision correction.",
+    "rating": 4.6,
+    "skills": ["LASIK", "Cataract Surgery"],
     "reviews": [
-      { "rating": 5, "comment": "Dr. Miller's care has greatly improved my quality of life." },
-      { "rating": 4, "comment": "Very thorough and empathetic doctor." }
+      { "patient": "Ella White", "comment": "Fantastic treatment!" },
+      { "patient": "Chloe Davis", "comment": "Really improved my vision." }
     ]
   },
   {
-    "id": 15,
-    "email": "chloe.davis@example.com",
-    "password": "chloepass111",
-    "name": "Chloe Davis",
-    "appointments": [
-      { "id": "32", "date": "2024-12-12", "time": "1:30 PM", "doctor": "Dr. Liam Miller" },
-      { "id": "33", "date": "2024-12-19", "time": "10:30 AM", "doctor": "Dr. Amelia Jones" }
-    ],
-    "price": 0,
-    "type": "patient",
-    "specialization": "patient",
-    "photo": "/images/patient7.jpg",
-    "about": "",
-    "rating":0
-    ,"skills": [],
-    "reviews": []
-  },
-  {
-    "id": 16,
-    "email": "emma.walker@example.com",
-    "password": "walkersecure321",
-    "name": "Dr. Emma Walker",
-    "appointments": [
-      { "id": "34", "date": "2024-12-10", "time": "11:00 AM", "doctor": "Dr. John Doe" },
-      { "id": "35", "date": "2024-12-14", "time": "9:30 AM", "doctor": "Dr. David Martin" }
-    ],
-    "price": 200,
-    "type": "doctor",
-    "specialization": "Nephrology",
-    "photo": "/images/doctor9.jpg",
-    "about": "Dr. Emma Walker specializes in treating kidney disorders with advanced nephrology care.",
-    "rating":4.0
-    ,"skills": ["Dialysis care", "Chronic kidney disease management", "Kidney transplant evaluation"],
-    "reviews": [
-      { "rating": 5, "comment": "Dr. Walker provided exceptional care during my treatment." },
-      { "rating": 5, "comment": "She is highly knowledgeable and compassionate." }
-    ]
-  },
-  {
-    "id": 17,
-    "email": "james.king@example.com",
-    "password": "kingpass654",
-    "name": "James King",
-    "appointments": [
-      { "id": "36", "date": "2024-12-19", "time": "2:00 PM", "doctor": "Dr. Liam Miller" },
-      { "id": "37", "date": "2024-12-24", "time": "11:00 AM", "doctor": "Dr. Emma Walker" }
-    ],
-    "price": 0,
-    "type": "patient",
-    "specialization": "patient",
-    "photo": "/images/patient8.jpg",
-    "about": "",
-    "rating":0
-    ,"skills": [],
-    "reviews": []
-  }
+      "id": 8,
+      "email": "lucas.brown@example.com",
+      "password": "lucas987pass",
+      "name": "Lucas Brown",
+      "appointments": [
+        { "id": "18", "date": "2024-12-19", "time": "10:00 AM", "doctor": "Dr. Mark Johnson" },
+        { "id": "19", "date": "2024-12-24", "time": "2:00 PM", "doctor": "Dr. Sophia Lee" }
+      ],
+      "price": 0,
+      "type": "patient",
+      "specialization": "patient",
+      "photo": "/images/patient4.jpg",
+      "about": "",
+      "rating": 0,
+      "skills": [],
+      "reviews": [],
+      "departments_interested_in": ["Neurology", "Orthopedics"],
+      "gender": "Male"
+    },
+    {
+      "id": 9,
+      "email": "dr.sophia.lee@example.com",
+      "password": "sophiadoc123",
+      "name": "Dr. Sophia Lee",
+      "appointments": [],
+      "price": 160,
+      "type": "doctor",
+      "specialization": "Radiology",
+      "photo": "/images/doctor5.jpg",
+      "about": "Expert radiologist with a focus on imaging diagnostics.",
+      "rating": 4.8,
+      "skills": ["CT Scan Analysis", "Ultrasound"],
+      "reviews": [
+        { "patient": "Lucas Brown", "comment": "Clear explanations and very professional." },
+        { "patient": "Omar Medhat", "comment": "Helped diagnose my issue accurately." }
+      ]
+    },
+    {
+      "id": 10,
+      "email": "sophia.williams@example.com",
+      "password": "sophia987pass",
+      "name": "Sophia Williams",
+      "appointments": [
+        { "id": "20", "date": "2024-12-27", "time": "1:30 PM", "doctor": "Dr. David Martin" },
+        { "id": "21", "date": "2024-12-29", "time": "4:00 PM", "doctor": "Dr. Jane Smith" }
+      ],
+      "price": 0,
+      "type": "patient",
+      "specialization": "patient",
+      "photo": "/images/patient5.jpg",
+      "about": "",
+      "rating": 0,
+      "skills": [],
+      "reviews": [],
+      "departments_interested_in": ["Dermatology", "Oncology"],
+      "gender": "Female"
+    },
+    {
+      "id": 11,
+      "email": "dr.david.martin@example.com",
+      "password": "martindoc456",
+      "name": "Dr. David Martin",
+      "appointments": [],
+      "price": 190,
+      "type": "doctor",
+      "specialization": "Oncology",
+      "photo": "/images/doctor6.jpg",
+      "about": "Dedicated oncologist helping patients fight cancer.",
+      "rating": 4.9,
+      "skills": ["Chemotherapy", "Radiation Therapy"],
+      "reviews": [
+        { "patient": "Sophia Williams", "comment": "Incredibly supportive and knowledgeable." },
+        { "patient": "Ella White", "comment": "Made me feel hopeful and confident." }
+      ]
+    },
+    {
+      "id": 12,
+      "email": "noah.wilson@example.com",
+      "password": "noah654pass",
+      "name": "Noah Wilson",
+      "appointments": [
+        { "id": "22", "date": "2024-12-23", "time": "10:00 AM", "doctor": "Dr. Amelia Jones" },
+        { "id": "23", "date": "2024-12-28", "time": "3:00 PM", "doctor": "Dr. Mark Johnson" }
+      ],
+      "price": 0,
+      "type": "patient",
+      "specialization": "patient",
+      "photo": "/images/patient7.jpg",
+      "about": "",
+      "rating": 0,
+      "skills": [],
+      "reviews": [],
+      "departments_interested_in": ["Cardiology", "Ophthalmology"],
+      "gender": "Male"
+    },
+    {
+      "id": 14,
+      "email": "dr.maria.garcia@example.com",
+      "password": "mariadoc789",
+      "name": "Dr. Maria Garcia",
+      "appointments": [],
+      "price": 200,
+      "type": "doctor",
+      "specialization": "Orthopedics",
+      "photo": "/images/doctor7.jpg",
+      "about": "Orthopedic surgeon specializing in joint replacements.",
+      "rating": 4.7,
+      "skills": ["Arthroscopy", "Knee Surgery"],
+      "reviews": [
+        { "patient": "Lucas Brown", "comment": "Fixed my knee issue perfectly." },
+        { "patient": "Sophia Williams", "comment": "Really knowledgeable and caring." }
+      ]
+    },
+    {
+      "id": 15,
+      "email": "emma.jones@example.com",
+      "password": "emma321pass",
+      "name": "Emma Jones",
+      "appointments": [
+        { "id": "24", "date": "2024-12-25", "time": "1:00 PM", "doctor": "Dr. Sophia Lee" },
+        { "id": "25", "date": "2024-12-30", "time": "11:00 AM", "doctor": "Dr. Maria Garcia" }
+      ],
+      "price": 0,
+      "type": "patient",
+      "specialization": "patient",
+      "photo": "/images/patient8.jpg",
+      "about": "",
+      "rating": 0,
+      "skills": [],
+      "reviews": [],
+      "departments_interested_in": ["Radiology", "Orthopedics"],
+      "gender": "Female"
+    }
 ]
-
