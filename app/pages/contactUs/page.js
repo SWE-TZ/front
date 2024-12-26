@@ -17,8 +17,8 @@ const ContactUs = () => {
         <h2 className="text-4xl font-bold text-center mb-10">Get in Touch</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <ContactInfo icon="📞" label="Phone" info="(123) 456-7890" />
-          <ContactInfo icon="✉️" label="Email" info="fixitcompany@gmail.com" />
-          <ContactInfo icon="🌐" label="Website" info="www.fixit.com" />
+          <ContactInfo icon="✉️" label="Email" info="doctorconnectcompany@gmail.com" />
+          <ContactInfo icon="🌐" label="Website" info="www.doctorconnect.com" />
           <ContactInfo
             icon="📍"
             label="Location"

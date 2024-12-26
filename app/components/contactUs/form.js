@@ -49,13 +49,13 @@ const ContactForm = () => {
         &subject=${encodeURIComponent(subject)}
         &body=${encodeURIComponent(text)}
         %0A${encodeURIComponent(name)}`}>
-          <button
+          <button 
             type="submit"
             className="col-span-1 md:col-span-2 px-6 py-3 bg-dark text-light font-bold rounded-md transition duration-300"
           
           >
             Send Message
-          </button>
+          </button> 
         </Link>
       </form>
     </section>
